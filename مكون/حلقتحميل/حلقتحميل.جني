@@ -1,0 +1,35 @@
+ئورد مكون، عنصرمخصص، حدت؛
+
+ئعلن حلقتحميل ():
+	يمدد مكون()؛
+تم
+
+ئعلن حلقتحميل.صيير ():
+	نصية سمة = "
+.حلقتحميل {
+  width: %{هدا.ردخاصية('حجم')}px;
+  height: %{هدا.ردخاصية('حجم')}px;
+  border: 2px solid #3498db;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+"؛
+	ئرجع (
+		<سمة>%{سمة}</سمة>
+		<قسم صنف="حلقتحميل">
+		</قسم>
+	)؛
+تم
+
+ئعلن مدخل ():
+	عنصرمخصص.سججل('حلقتحميل'، حلقتحميل)؛
+تم

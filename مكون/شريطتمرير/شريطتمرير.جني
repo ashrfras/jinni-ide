@@ -1,0 +1,41 @@
+ئورد مكون، عنصرمخصص؛
+
+
+ئعلن شريطتمرير ():
+	يمدد مكون()؛
+	يملك نصية حجم؛
+	يملك نصية هيكسلون؛
+	
+	هدا.حجم = هدا.ردخاصية('حجم') ئو '4'؛
+	هدا.هيكسلون = هدا.ردخاصية('هيكسلون') ئو '#555555'؛
+تم
+
+ئعلن شريطتمرير.صيير ():
+	دع سيس = "
+		::-webkit-scrollbar {
+			width: %{هدا.حجم}px;
+			height: %{هدا.حجم}px;
+		}
+		::-webkit-scrollbar-track {
+			background-clip: padding-box;
+			border: solid transparent;
+			border-width: 0 %{هدا.حجم}px 0 0;
+		}
+		::-webkit-scrollbar-thumb {
+			background: %{هدا.هيكسلون}7f;
+			background-clip: padding-box;
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: %{هدا.هيكسلون};
+		}
+	"؛
+	ئرجع (
+		<سمة ئسم="شريطتمرير">
+			%{سيس}
+		</سمة>
+	)؛
+تم
+
+ئعلن مدخل ():
+	عنصرمخصص.سججل('شريطتمرير'، شريطتمرير)؛
+تم

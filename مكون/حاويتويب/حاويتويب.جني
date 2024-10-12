@@ -1,0 +1,13 @@
+ئورد WebContainer من '/webcontainer.js'؛
+
+ئعلن حاويتويب ():
+	يختصر WebContainer؛
+تم
+	
+ئعلن حاويتويب.رككب () ك وعد:
+	يختصر mount؛
+تم
+
+ئعلن ئقلع () ك وعد حاويتويب:
+	ئرجع WebContainer.boot()؛
+تم

@@ -1,0 +1,103 @@
+ئورد مكون، عنصر، عنصرمخصص؛
+ئورد النافدة من نافدة؛
+
+ئعلن غمازة ():
+	يمدد مكون()؛
+	يملك مركب { نصية رسالة } حالة = {
+		رسالة: ''
+	}؛
+تم
+
+ئعلن غمازة.تانياتحريك ():
+	ئرجع (( (هدا.ردخاصية('مدة') ك عدد) ئو 5000) ÷ 1000) - 0.5؛
+تم
+
+ئعلن غمازة.صيير ():
+	دع سيسس = "
+		.غمازة {
+			visibility: hidden;
+			position: fixed;
+			bottom: 30px;
+			margin: auto;
+			max-width: 350px;
+			min-height: 50px;
+			text-align: center;
+			border-radius: 2px;
+			z-index: 9999;
+
+			padding: 10px;
+			left: 0;
+			right:0;
+			background-color: #343a40!important;
+			color: #fff!important;
+		}
+		.غمازة.عرض {
+			visibility: visible;
+			-webkit-animation: fadein 0.5s,fadeout 0.5s %{هدا.تانياتحريك()}s;
+			animation: fadein 0.5s,fadeout 0.5s %{هدا.تانياتحريك()}s;
+		}
+		@-webkit-keyframes fadein {
+			from {bottom: 0; opacity: 0;}
+			to {bottom: 30px; opacity: 1;}
+		}
+		@keyframes fadein {
+			from {bottom: 0; opacity: 0;}
+			to {bottom: 30px; opacity: 1;}
+		}
+		@-webkit-keyframes stay {
+			from {min-width: 350px}
+			to {min-width: 350px}
+		}
+		@keyframes stay {
+			from {min-width: 350px}
+			to {min-width: 350px}
+		}
+		@-webkit-keyframes fadeout {
+			from {bottom: 30px; opacity: 1;}
+			to {bottom: 60px; opacity: 0;}
+		}
+		@keyframes fadeout {
+			from {bottom: 30px; opacity: 1;}
+			to {bottom: 60px; opacity: 0;}
+		}
+	"؛
+	ئرجع (
+		<قسم صنف="غمازة خلف-ئسود نص-ئبيض">
+			_{هدا.حالة.رسالة}
+		</قسم>
+		<سمة>
+			_{سيسس}
+		</سمة>
+	)؛
+تم
+
+ئعلن غمازة.ئضهر ():
+	عنصر غمازة = هدا.ئستعلم('.غمازة')؛
+	غمازة.ئسمصنف = غمازة.ئسمصنف + ' عرض'؛
+تم
+
+ئعلن غمازة.ئخفي ():
+	عنصر غمازة = هدا.ئستعلم('.غمازة')؛
+	غمازة.ئسمصنف = غمازة.ئسمصنف.عووض('عرض'، '')؛
+تم
+
+ئعلن غمازة.ئغمز ():
+	غمازة نفسه = هدا؛
+	نفسه.ئضهر()؛
+	عدد مدة = (هدا.ردخاصية('مدة') ك عدد) ئو 5000؛
+	النافدة.خدمهلة(
+		دالة(): نفسه.ئخفي()،
+		مدة
+	)؛
+تم
+
+ئعلن غمازة.حددت ():
+	هدا.حددتمشهد()؛
+	ئدا هدا.حالة.رسالة لا= '':
+		هدا.ئغمز()؛
+	تم
+تم
+
+ئعلن مدخل ():
+	عنصرمخصص.سججل('غمازة'، غمازة)؛
+تم
