@@ -22,7 +22,7 @@
 		password: مدخ.كلمتسر
 	})؛
 	
-	ريتما ئساش.execCommand("wget https://raw.githubusercontent.com/ashrfras/jinni-ide/refs/heads/master/deploy.bash -P /home/%{مدخ.مستخدم}")؛
+	ريتما ئساش.execCommand("wget https://raw.githubusercontent.com/ashrfras/jinni-ide/refs/heads/master/deploy.bash -O /home/%{مدخ.مستخدم}/deploy.bash")؛
 	ريتما ئساش.execCommand("chmod +x /home/%{مدخ.مستخدم}/deploy.bash")؛
 	ريتما ئساش.execCommand("/home/%{مدخ.مستخدم}/deploy.bash %{مدخ.ئسمنطاق} %{مدخ.رابطجيت} %{مدخ.ئسمدخل} %{مدخ.كلمتسر}")؛
 	جواب.ئرسلحالة(200)؛
