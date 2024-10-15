@@ -1,17 +1,24 @@
 #!/bin/bash
 
+# Redirect all output to output.log
+exec > "$HOME/output.log" 2>&1
+
 # Check if a domain parameter is provided
-if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <domain> <git-repo-url> <main-file-name>"
+if [ "$#" -ne 4 ]; then
+    echo "Usage: $0 <domain> <git-repo-url> <main-file-name> <password>"
     exit 1
 fi
+
+echo "Running script as $USER"
+source "$HOME/.bash_profile"
 
 DOMAIN="$1"
 REPO_URL="$2"
 MAIN_FILE="$3"
+PASSWORD="$4"
 
 # Extract the repository name from the URL
-REPO_NAME=$(basename "$GIT_REPO_URL" .git)
+REPO_NAME=$(basename "$REPO_URL" .git)
 CLONE_DIR="$HOME/$REPO_NAME"
 
 # Set the log file location
@@ -19,8 +26,11 @@ LOG_FILE="$(dirname "$0")/jinni.log"
 
 # Function to log messages
 log() {
+	echo "$1"
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "$LOG_FILE"
 }
+
+rm "$LOG_FILE"
 
 #function to write server config
 write_nginx_config() {
@@ -50,53 +60,58 @@ log "Checking Nginx"
 if ! command -v nginx &> /dev/null; then
 	log "Nginx not installed, setting up the server"
 	log "Setting ufw"
-	sudo ufw enable
-	sudo ufw allow ssh
-	sudo ufw allow http
-	sudo ufw allow https
+	echo "$PASSWORD" | sudo -S ufw enable
+	echo "$PASSWORD" | sudo -S ufw allow ssh
+	echo "$PASSWORD" | sudo -S ufw allow http
+	echo "$PASSWORD" | sudo -S ufw allow https
 	log "Installing Nginx"
-	sudo apt install nginx -y
+	echo "$PASSWORD" | sudo -S apt install nginx -y
 	log "Installing Certbot"
-	sudo apt install python3-certbot-nginx -y
-	log "Writing Nginx config"
-	write_nginx_config
-	sudo service nginx start
-	log "Applying SSL"
-	sudo certbot --nginx --register-unsafely-without-email --redirect --non-interactive --agree-tos -d $domain
+	echo "$PASSWORD" | sudo -S apt install python3-certbot-nginx -y
+	echo "$PASSWORD" | sudo -S service nginx start
 fi
 
 # check node
 log "Checking Node"
-if ! command -v nvm &> /dev/null; then
+if [ ! -e "$HOME/.nvm" ]; then
 	log "Node not installed, setting up runtime"
-	sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-	source ~/.bashrc
-	sudo nvm install --lts
-	sudo npm i -g pm2
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+	nvm install --lts
+	npm i -g pm2
 	pm2 startup ubuntu
+fi
+#add to bashprofile if not already
+line='export NVM_DIR="$HOME/.nvm"'
+if ! grep -q "$line" "$HOME/.bash_profile"; then
+	echo 'export NVM_DIR="$HOME/.nvm"' >> "$HOME/.bash_profile"
+	echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> "$HOME/.bash_profile"
+	#load configuration
+	source "$HOME/.bash_profile"
 fi
 
 # check jinni
-log "Checking Jinni"
-if ! command -v jinni &> /dev/null; then
-	log "Installing Jinni"
-	mkdir ~/.jinni
-	mkdir ~/.jinni/jiss
-	git clone "https://github.com/ashrfras/jinni.git" ~/.jinni
-	git clone "https://github.com/ashrfras/JiSS.git" ~/.jinni/jiss
-	mkdir ~/.jinni/bin
-	ln -s ~/.jinni/jinni ~/.jinni/bin/jinni
-	chmod +x ~/.jinni/bin/jinni
-	#add to PATH
-	line='export PATH="~/.jinni/bin:$PATH"'
-	# Check if the line is already present in .bashrc
-	if ! grep -q "$line" ~/.bashrc; then
-		echo "$line" >> ~/.bashrc
-		source ~/.bashrc
-	fi
-	#compile jiss
-	jinni --nowarning --norun ~/.jinni/jiss
+log "Installing Jinni"
+rm -rf "$HOME/.jinni"
+mkdir -p "$HOME/.jinni/jinni"
+mkdir -p "$HOME/.jinni/jiss"
+git clone "https://github.com/ashrfras/jinni-compiler.git" "$HOME/.jinni/jinni"
+git clone "https://github.com/ashrfras/jiss.git" "$HOME/.jinni/jiss"
+mkdir -p "$HOME/.jinni/bin"
+ln -s "$HOME/.jinni/jinni/jinni" "$HOME/.jinni/bin/jinni"
+chmod +x "$HOME/.jinni/bin/jinni"
+
+#add to to bashprofile if not already
+line='export PATH="$HOME/.jinni/bin:$PATH"'
+if ! grep -q "$line" "$HOME/.bash_profile"; then
+	echo "$line" >> "$HOME/.bash_profile"
+	#load configuration
+	source "$HOME/.bash_profile"
 fi
+
+#compile jiss
+jinni --nowarning --norun "$HOME/.jinni/jiss"
 
 # Remove the project directory if it already exists
 if [ -d "$CLONE_DIR" ]; then
@@ -108,12 +123,22 @@ fi
 mkdir -p "$CLONE_DIR"
 
 log "Cloning repo"
-git clone "$GIT_REPO_URL" "$CLONE_DIR"
+git clone "$REPO_URL" "$CLONE_DIR"
 
 #compile
-~/.jinni/bin/jinni --nowarnings --norun --web "$CLONE_DIR"/"$MAIN_FILE"
+jinni --nowarnings --norun --web "$CLONE_DIR/$MAIN_FILE"
+mkdir "$CLONE_DIR/node_modules"
+npm install --prefix "$CLONE_DIR"
 
 #run
 pm2 stop all
 pm2 delete all
-pm2 start server.mjs
+pm2 start server.mjs --cwd "$CLONE_DIR"
+
+if ! grep -q "$DOMAIN" "/etc/nginx/sites-enabled/default"; then
+	log "Writing Nginx config"
+	write_nginx_config
+	log "Applying SSL"
+	echo "$PASSWORD" | sudo -S certbot --nginx --register-unsafely-without-email --redirect --non-interactive --agree-tos -d "$DOMAIN"
+fi
+echo "$PASSWORD" | sudo -S service nginx reload
