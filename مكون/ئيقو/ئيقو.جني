@@ -131,7 +131,9 @@
   "حادي-يمين": "iconoir-align-right"،
   "جيت-طلب-سحب": "iconoir-git-pull-request"،
   "ئنترنت": "iconoir-internet"،
-  "علامة-ئكس": "iconoir-xmark"
+  "علامة-ئكس": "iconoir-xmark"،
+  "قاجانب-تمديد": "iconoir-sidebar-expand"،
+  "قاجانب-ئخفائ": "iconoir-sidebar-collapse"
 }؛
 
 ئعلن ئيقو.صيير ():

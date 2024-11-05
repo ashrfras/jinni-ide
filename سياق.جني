@@ -3,6 +3,7 @@
 
 ئعلن برماجيت = 'https://api.github.com/repos'؛
 ئعلن ئسمقاب = 'jinni'؛
+ئعلن جيتجني = 'https://github.com/ashrfras/jinni-compiler.git'؛
 
 ئعلن _سياق ():
 	يمدد مكون()؛
