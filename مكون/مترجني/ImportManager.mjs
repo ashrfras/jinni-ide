@@ -283,7 +283,6 @@ export class ImportManager {
 		
 		const parser = createParser();
 		
-		try {
 			const scope = await parser.parse(fileContent, {
 				filePath: filePath,
 				projectPath: ImportManager.projectPath,
@@ -292,11 +291,7 @@ export class ImportManager {
 			// returns a scope object containing global symbols of
 			// the imported files
 			return scope;
-		} catch (e) {
-			// parsing failed
-			console.log(e);
-			ErrorManager.printAll();
-		}
+
 	}
 	
 	static isUrlImport (s) {

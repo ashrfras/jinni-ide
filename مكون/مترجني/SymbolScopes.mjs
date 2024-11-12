@@ -85,7 +85,7 @@ export class SymbolScopes {
 		var mySymb = new Symbol(name);
 		mySymb.subTypeSymbol = subTypeSymbol;
 		
-		if (!typeSymbol.isClass && !typeSymbol.isStruct && !smb.isComposite && !smb.isSystem()) {
+		if (!typeSymbol.isClass && !typeSymbol.isStruct && !typeSymbol.isComposite && !typeSymbol.isSystem()) {
 			ErrorManager.error("الئسم " + typeSymbol.name + " ليس نوعا");
 		}
 		
@@ -98,23 +98,51 @@ export class SymbolScopes {
 	declareSymbol (name, type, isArray = false, subType = null) {
 		// declare symb in the current scope
 		var scope = this.getCurrent();
-		if (scope.containsByName(name)) {
-			ErrorManager.error("الئسم '" + name + "' معرف مسبقا في هدا المجال");
+		var foundSymb = scope.getSymbolByName(name);
+		if (foundSymb) {
+			if (!foundSymb.isHeader) {
+				ErrorManager.error("الئسم '" + name + "' معرف مسبقا في هدا المجال");
+			}
 		}
 		if (!type) {
 			type = name;
 		}
 		var mySymb = this.createSymbol(name, type, isArray, subType);
-		scope.add(mySymb);
+		
+		if (foundSymb) {
+			if (!mySymb.isEquivalentTo(foundSymb)) {
+				ErrorManager.error("الئسم '" + name + "' غير متوافق مع الترويسة");
+			} else {
+				foundSymb.setAsHeader(false);
+				foundSymb.args = mySymb.args;
+				return foundSymb;
+			}
+		} else {
+			scope.add(mySymb);
+		}
+		
 		return mySymb;
 	}
 	
 	declareSymbolS (smb) {
 		var scope = this.getCurrent();
-		if (scope.containsByName(smb.name)) {
-			ErrorManager.error("الئسم '" + name + "' معرف مسبقا في هدا المجال");
+		var foundSymb = scope.getSymbolByName(smb.name);
+		if (foundSymb) {
+			if (!foundSymb.isHeader) {
+				ErrorManager.error("الئسم '" + smb.name + "' معرف مسبقا في هدا المجال");
+			} else {
+				if (!smb.isEquivalentTo(foundSymb)) {
+					ErrorManager.error("الئسم '" + smb.name + "' غير متوافق مع الترويسة");
+				} else {
+					foundSymb.setAsHeader(false);
+					foundSymb.args = smb.args;
+					return foundSymb;
+				}
+			}
+		} else {
+			scope.add(smb);
 		}
-		return scope.add(smb);
+		return smb;
 	}
 	
 	declareCompositeSymbol (header, haslist, id) {
@@ -179,10 +207,24 @@ export class SymbolScopes {
 	// Adds a symbol to the current scope
 	addSymbol (smb) {
 		var scope = this.getCurrent();
-		if (scope.containsByName(smb.name)) {
-			ErrorManager.error("الئسم '" + smb.name + "' معرف مسبقا في هدا المجال");
+		var foundSymb = scope.getSymbolByName(smb.name);
+		if (foundSymb) {
+			if (!foundSymb.isHeader) {
+				ErrorManager.error("الئسم '" + smb.name + "' معرف مسبقا في هدا المجال");
+			} else {
+				if (!smb.isEquivalentTo(foundSymb)) {
+					ErrorManager.error("الئسم '" + smb.name + "' غير متوافق مع الترويسة");
+				} else {
+					foundSymb.setAsHeader(false);
+					foundSymb.args = smb.args;
+					return foundSymb;
+				}
+			}
+		} else {
+			scope.add(smb);
 		}
-		return scope.add(smb);
+		
+		return smb;
 	}
 	
 	checkSymb (symb) {

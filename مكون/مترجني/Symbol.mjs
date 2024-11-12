@@ -40,6 +40,7 @@ export class Symbol {
 	isReadOnly = false;
 	memberOf = null; // this symb is a member of another symb?
 	hasUnknownComposite = false; // a composite with ... is marked with this as true
+	isHeader = false; // is this a header declaration symbol
 	
 	
 	constructor (name, typeSymbol = null, isArray = false, isClass = false) {
@@ -91,6 +92,7 @@ export class Symbol {
 		smb.subTypeSymbol = subTypeSymbol || this.subTypeSymbol;
 		smb.memberOf = this.memberOf;
 		smb.hasUnknownComposite = this.hasUnknownComposite;
+		smb.isHeader = this.isHeader;
 		return smb;
 	}
 	
@@ -131,6 +133,36 @@ export class Symbol {
 	
 	isAny () {
 		return this.typeSymbol.name == 'منوع' || this.typeSymbol.name == 'مجهول';
+	}
+	
+	// return true if two symbols are equivalent (same name same type same args)
+	isEquivalentTo (symb) {
+		// we just pass for the moment
+		// BUG => https://github.com/ashrfras/jinni-compiler/issues/1
+		return true;
+		
+		var cnd1 = this.name == symb.name &&
+			this.subTypeSymbol == symb.subTypeSymbol &&
+			this.args.length == symb.args.length;
+			
+		// TODO => type checking, deactivated
+		var cnd2 = this.typeSymbol.name == symb.typeSymbol.name ||
+			(this.typeSymbol.name == this.name && symb.typeSymbol.name == 'فارغ') ||
+			(symb.typeSymbol.name == symb.name && this.typeSymbol.name == 'فارغ');
+			
+		if (!cnd1 || !cnd2) {
+			return false;
+		}
+		
+		for (var i=0; i<this.args.length; i++) {
+			var argSymb1 = this.args[i].symb;
+			var argSymb2 = symb.args[i].symb;
+			if (!argSymb1.isEquivalentTo(argSymb2)) {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 	
 	// sameTypeAs
@@ -295,23 +327,29 @@ export class Symbol {
 	addMember (memberSymb) {
 		var memb = this.getMemberWithInfo(memberSymb);
 		// if isinherited allow overwriting
-		if (memb.symb && !memb.isInherited) {
-			ErrorManager.error("الئسم '" + memberSymb.name + "' معرف مسبقا في الكائن " + this.toString());
-		}
-		this.members.push(memberSymb);
-		memberSymb.memberOf = this;
-		return memberSymb;
-		
-		// can't understand this code anymore
-		// leave it as dead code just in case
-		// TODO will be removed
-		if (memb.symb && memb.isInherited) {		
-			var i = this.members.indexOf(memb.symb);
-			this.members[i] = memberSymb;
-		}
-		if (!memb.symb) {
+		var foundSymb = memb.symb;
+		if (foundSymb) {
+			if (!foundSymb.isHeader && !memb.isInherited) {
+				ErrorManager.error("الئسم '" + memberSymb.name + "' معرف مسبقا في الكائن " + this.toString());
+			}
+			if (foundSymb.isHeader) {
+				if (!memberSymb.isEquivalentTo(foundSymb)) {
+					ErrorManager.error("الئسم '" + memberSymb.name + "' غير متوافق مع الترويسة");
+				} else {
+					foundSymb.setAsHeader(false);
+					foundSymb.args = memberSymb.args;
+					return foundSymb;
+				}
+			}
+			if (memb.isInherited) {
+				this.members.push(memberSymb);
+			}
+		} else {
 			this.members.push(memberSymb);
-			memberSymb.memberOf = this;
+		}
+		memberSymb.memberOf = this;
+		if (this.isHeader) {
+			memberSymb.setAsHeader(true);
 		}
 		return memberSymb;
 	}
@@ -345,7 +383,7 @@ export class Symbol {
 		var symbName = symb.name
 		var mem = this.members.filter((m) => m.name == symbName);
 		var isInherited = false;
-		if (mem.length > 1) {
+		if (mem.length > 1) { // more than one result!
 			// name has overloading, not supported yet
 			ErrorManager.warning("وجود ئحتمالين متعددين للئسم " + symbName);
 			mem = mem[0];
@@ -356,13 +394,35 @@ export class Symbol {
 			} else {
 				mem = null;
 			}
-		} else {
+		} else { // ==1 we got a result
 			mem = mem[0];
+			if (this.isHeader) {
+				mem.setAsHeader(true);
+			}
 		}
 		return {
 			symb: mem,
 			isInherited
 		}
+	}
+	
+	setAsHeader (y = true) {
+		if (y) {
+			this.isHeader = true;
+			this.members.forEach(m => m.isHeader = true);
+		} else {
+			this.isHeader = false;
+		}
+	}
+	
+	replaceMember (member, replaceBy) {
+		//member.typeSymbol = replaceBy.typeSymbol;
+		//member.subTypeSymbol = replaceBy.subTypeSymbol;
+		member.setAsHeader(false);
+		return member;
+		//var i = this.members.indexOf(member);
+		//replaceBy.members = member.members; //keep symbol's members
+		//this.members[i] = replaceBy;
 	}
 	
 	getMemberName (symbName) {
@@ -379,6 +439,9 @@ export class Symbol {
 			}
 		} else {
 			mem = mem[0];
+			if (this.isHeader) {
+				mem.setAsHeader(true);
+			}
 		}
 		return mem;
 	}

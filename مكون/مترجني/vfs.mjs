@@ -207,7 +207,11 @@ export class vfs {
 					content
 				};
 			}
-			await myDb.put(myFile);
+			try {
+				await myDb.put(myFile);
+			} catch (e) {
+				console.log('فشلت الكتابة في: ' + dbName + ':' + filePath);
+			}
 		}
 	}
 	static ئكتبملف = vfs.writeFile;
@@ -226,7 +230,13 @@ export class vfs {
 			var myDb = new PouchDB(dbName);
 			myDb = myDb['بتش'];
 			filePath = vfs.getNoDbPath(filePath);
-			var myDoc = await myDb.get(filePath);
+			var myDoc;
+			try {
+				myDoc = await myDb.get(filePath);
+			} catch (e) {
+				console.log('تعدرت قرائة الملف: ' + dbName + ':' + filePath);
+				console.log(e);
+			}
 			if (myDoc) {
 				if (filePath.endsWith('.جني')) {
 					var result = await myDb.find({
@@ -238,12 +248,6 @@ export class vfs {
 					});
 					var cards = result.docs;
 					cards.sort((a, b) => a.رتبة - b.رتبة);
-					
-					//var contents_imports = cards.filter((card) => card.نوعبطاقة == 'ئوردين').map((card) => card.محتوا);
-					//var contents_vars = cards.filter((card) => card.نوعبطاقة == 'متغيرين').map((card) => card.محتوا);
-					//var contents_struct = cards.filter((card) => card.نوعبطاقة == 'مركبين').map((card) => card.محتوا);
-					//var contents_funcs = cards.filter((card) => card.نوعبطاقة == 'وضيفة').map((card) => card.محتوا);
-					//var result = contents_imports.join('\n') + contents_struct.join('\n') + '\n' + contents_vars.join('\n') + '\n' + contents_funcs.join('\n');
 					
 					var results = cards.map((card) => card.محتوا);
 					var result = results.join('\n');
@@ -273,6 +277,7 @@ export class vfs {
 			var myDb = new PouchDB(dbName);
 			myDb = myDb['بتش'];
 			await myDb.destroy();
+			new PouchDB(dbName);
 		}
 	}
 	static ئعدئنشائ = vfs.remakeDir;
@@ -311,26 +316,39 @@ export class vfs {
 		} else if (isBrowser()) {
 			var srcDb = vfs.getDbName(srcPath);
 			var dstDb = vfs.getDbName(dstPath);
-			var mySrcDb = new PouchDb(srcDb);
+			var mySrcDb = new PouchDB(srcDb);
 			mySrcDb = mySrcDb['بتش'];
-			var myDstDb = new PouchDb(dstDb);
+			var myDstDb = new PouchDB(dstDb);
 			myDstDb = myDstDb['بتش'];
 			
 			srcPath = vfs.getNoDbPath(srcPath);
 			dstPath = vfs.getNoDbPath(dstPath);
 			
-			var mySrcDoc = await mySrcDb.get(srcPath);
-			var myDstDoc = await myDstDb.get(dstPath);
+			var mySrcDoc, myDstDoc;
+			
+			try {
+				mySrcDoc = await mySrcDb.get(srcPath);
+			} catch (e) {
+				console.log('تعدرت قرائة الملف: ' + srcDb + ':' + srcPath);
+				console.log(e);
+			}
 			
 			var record = {
 				_id: dstPath,
 				content: mySrcDoc.content,
 			};
-			if (myDstDoc) {
-				record._version = myDstDoc._version
+			
+			try {
+				myDstDoc = await myDstDb.get(dstPath);
+				record._rev = myDstDoc._rev;
+			} catch (e) {}
+			
+			try {
+				await myDstDb.put(record);
+			} catch (e) {
+				console.log('فشلت الكتابة في: ' + dstDb + ':' + dstPath);
+				console.log(e);
 			}
-
-			await myDstDb.put(record);
 		}
 	}
 	static ئنسخملف = vfs.copyFile;

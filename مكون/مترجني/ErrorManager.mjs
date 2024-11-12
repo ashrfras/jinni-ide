@@ -57,9 +57,10 @@ export class ErrorManager {
 		}
 		errors.forEach (er => { er.print(); console.log('==='); });
 		if (exit) {
-			throw new Error("نهاية الئجرائ بخطئين");
-			//console.log("نهاية الئجرائ");
-			//process.exit();
+			throw {
+				errorNum: errors.length,
+				errors: errors.map(er => er.print())
+			}
 		}
 	}
 	

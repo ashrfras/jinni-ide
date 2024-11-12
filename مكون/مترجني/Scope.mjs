@@ -38,6 +38,16 @@ export class Scope {
 		return this.symbols.find((s) => s.name == symbName);
 	}
 	
+	replaceBy (symb1, symb2) {
+		//symb1.typeSymbol = symb2.typeSymbol;
+		//symb1.subTypeSymbol = symb2.subTypeSymbol;
+		symb1.setAsHeader(false);
+		return symb1;
+		//var i = this.symbols.indexOf(symb1);
+		//symb2.members = symb1.members;
+		//this.symbols[i] = symb2;
+	}
+	
 	add (symb) {
 		this.symbols.push(symb);
 		return symb;
