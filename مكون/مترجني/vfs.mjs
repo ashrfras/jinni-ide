@@ -250,7 +250,7 @@ export class vfs {
 					cards.sort((a, b) => a.رتبة - b.رتبة);
 					
 					var results = cards.map((card) => card.محتوا);
-					var result = results.join('\n');
+					var result = results.join('\n\n');
 					return result;
 				} else {
 					return myDoc.content;
@@ -276,8 +276,8 @@ export class vfs {
 			var dbName = vfs.getDbName(dirPath);
 			var myDb = new PouchDB(dbName);
 			myDb = myDb['بتش'];
-			await myDb.destroy();
-			new PouchDB(dbName);
+			//await myDb.destroy();
+			//new PouchDB(dbName);
 		}
 	}
 	static ئعدئنشائ = vfs.remakeDir;
@@ -335,7 +335,7 @@ export class vfs {
 			
 			var record = {
 				_id: dstPath,
-				content: mySrcDoc.content,
+				content: mySrcDoc.محتوا,
 			};
 			
 			try {

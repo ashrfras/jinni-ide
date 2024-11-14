@@ -53,11 +53,12 @@
 							<ميطا charset="utf-8"></ميطا>
 							<عنوان>%{ئسملف}</عنوان>
 							<ميطا name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"></ميطا>
+							<link rel="stylesheet" href="/ئختبر/جيسس.css"></link>
 							<script type="module">
 								import "/ئختبر/%{ئسملف}.mjs"
 							</script>
 						</رئس>
-						<جسم صنف="ط-كامل تصفير">
+						<جسم صنف="ط-كامل تصفير فائض-مخفي">
 						
 						</جسم>
 					</html>
