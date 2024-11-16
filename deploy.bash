@@ -101,7 +101,7 @@ git clone "https://github.com/ashrfras/jiss.git" "$HOME/.jinni/jiss"
 
 #compile jiss
 cd "$HOME/.jinni/jiss"
-node /home/.jinni/jinni/jinni.mjs --nowarning --norun "$HOME/.jinni/jiss/جيسس.جني"
+node /home/jinni/.jinni/jinni/jinni.mjs --nowarning --norun "$HOME/.jinni/jiss/جيسس.جني"
 
 # Remove the project directory if it already exists
 if [ -d "$CLONE_DIR" ]; then
@@ -117,7 +117,7 @@ git clone "$REPO_URL" "$CLONE_DIR"
 
 #compile
 cd "$CLONE_DIR"
-node /home/.jinni/jinni/jinni.mjs --nowarnings --norun --web "$CLONE_DIR/$MAIN_FILE"
+node /home/jinni/.jinni/jinni/jinni.mjs --nowarnings --norun --web "$CLONE_DIR/$MAIN_FILE"
 mkdir "$CLONE_DIR/node_modules"
 npm install --prefix "$CLONE_DIR"
 
