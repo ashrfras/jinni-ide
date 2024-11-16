@@ -98,20 +98,10 @@ mkdir -p "$HOME/.jinni/jinni"
 mkdir -p "$HOME/.jinni/jiss"
 git clone "https://github.com/ashrfras/jinni-compiler.git" "$HOME/.jinni/jinni"
 git clone "https://github.com/ashrfras/jiss.git" "$HOME/.jinni/jiss"
-mkdir -p "$HOME/.jinni/bin"
-ln -s "$HOME/.jinni/jinni/jinni" "$HOME/.jinni/bin/jinni"
-chmod +x "$HOME/.jinni/bin/jinni"
-
-#add to to bashprofile if not already
-line='export PATH="$HOME/.jinni/bin:$PATH"'
-if ! grep -q "$line" "$HOME/.bash_profile"; then
-	echo "$line" >> "$HOME/.bash_profile"
-	#load configuration
-	source "$HOME/.bash_profile"
-fi
 
 #compile jiss
-jinni --nowarning --norun "$HOME/.jinni/jiss"
+cd "$HOME/.jinni/jiss"
+node /home/.jinni/jinni/jinni.mjs --nowarning --norun "$HOME/.jinni/jiss/جيسس.جني"
 
 # Remove the project directory if it already exists
 if [ -d "$CLONE_DIR" ]; then
@@ -126,7 +116,8 @@ log "Cloning repo"
 git clone "$REPO_URL" "$CLONE_DIR"
 
 #compile
-jinni --nowarnings --norun --web "$CLONE_DIR/$MAIN_FILE"
+cd "$CLONE_DIR"
+node /home/.jinni/jinni/jinni.mjs --nowarnings --norun --web "$CLONE_DIR/$MAIN_FILE"
 mkdir "$CLONE_DIR/node_modules"
 npm install --prefix "$CLONE_DIR"
 
