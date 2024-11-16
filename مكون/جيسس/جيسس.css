@@ -1,0 +1,1677 @@
+.ئدنط-0 { min-height: 0px; }
+.ئدنط-0.5 { min-height: 0.125rem; }
+.ئدنط-1 { min-height: 0.25rem; }
+.ئدنط-1.5 { min-height: 0.375rem; }
+.ئدنط-2 { min-height: 0.5rem; }
+.ئدنط-2.5 { min-height: 0.625rem; }
+.ئدنط-3 { min-height: 0.75rem; }
+.ئدنط-3.5 { min-height: 0.875rem; }
+.ئدنط-4 { min-height: 1rem; }
+.ئدنط-5 { min-height: 1.25rem; }
+.ئدنط-6 { min-height: 1.5rem; }
+.ئدنط-7 { min-height: 1.75rem; }
+.ئدنط-8 { min-height: 2rem; }
+.ئدنط-9 { min-height: 2.25rem; }
+.ئدنط-10 { min-height: 2.5rem; }
+.ئدنط-11 {min-height: 2.75rem;}
+.ئدنط-12 {min-height: 3rem;}
+.ئدنط-14 {min-height: 3.5rem;}
+.ئدنط-16 {min-height: 4rem;}
+.ئدنط-20 {min-height: 5rem;}
+.ئدنط-24 {min-height: 6rem;}
+.ئدنط-28 {min-height: 7rem;}
+.ئدنط-32 {min-height: 8rem;}
+.ئدنط-36 {min-height: 9rem;}
+.ئدنط-40 {min-height: 10rem;}
+.ئدنط-44 {min-height: 11rem;}
+.ئدنط-48 {min-height: 12rem;}
+.ئدنط-52 {min-height: 13rem;}
+.ئدنط-56 {min-height: 14rem;}
+.ئدنط-60 {min-height: 15rem;}
+.ئدنط-64 {min-height: 16rem;}
+.ئدنط-72 {min-height: 18rem;}
+.ئدنط-مئة {min-height: 100px;}
+.ئدنط-مئتان {min-height: 200px;}
+.ئدنط-تلاتمئة {min-height: 300px;}
+.ئدنط-ئربعمئة {min-height: 400px;}
+.ئدنط-خمسمئة {min-height: 500px;}
+.ئدنط-ستمئة {min-height: 600px;}
+.ئدنط-سبعمئة {min-height: 700px;}
+.ئدنط-تمانمئة {min-height: 800px;}
+.ئدنط-تسعمئة {min-height: 900px;}
+.ئدنط-عشرة { min-height: 10%; }
+.ئدنط-عشرون { min-height: 20%; }
+.ئدنط-تلاتون { min-height: 30%; }
+.ئدنط-ئربعون { min-height: 40%; }
+.ئدنط-ستون { min-height: 60%; }
+.ئدنط-سبعون { min-height: 70%; }
+.ئدنط-تمانون { min-height: 80%; }
+.ئدنط-تسعون { min-height: 90%; }
+.ئدنط-نصف { min-height: 50%; }
+.ئدنط-تلت { min-height: 33.333333%; }
+.ئدنط-ربع { min-height: 25%; }
+.ئدنط-ئلاربع { min-height: 75% }
+.ئدنط-كامل { min-height: 100%; }
+.ئدنط-شاشة { min-height: 100vh; }
+.ئدنط-محتوا {min-height: fit-content;}
+
+.ئقصط-0 { max-height: 0px; }
+.ئقصط-0\.5 { max-height: 0.125rem; }
+.ئقصط-1 { max-height: 0.25rem; }
+.ئقصط-1\.5 { max-height: 0.375rem; }
+.ئقصط-2 { max-height: 0.5rem; }
+.ئقصط-2\.5 { max-height: 0.625rem; }
+.ئقصط-3 { max-height: 0.75rem; }
+.ئقصط-3\.5 { max-height: 0.875rem; }
+.ئقصط-4 { max-height: 1rem; }
+.ئقصط-5 { max-height: 1.25rem; }
+.ئقصط-6 { max-height: 1.5rem; }
+.ئقصط-7 { max-height: 1.75rem; }
+.ئقصط-8 { max-height: 2rem; }
+.ئقصط-9 { max-height: 2.25rem; }
+.ئقصط-10 { max-height: 2.5rem; }
+.ئقصط-11 {max-height: 2.75rem;}
+.ئقصط-12 {max-height: 3rem;}
+.ئقصط-14 {max-height: 3.5rem;}
+.ئقصط-16 {max-height: 4rem;}
+.ئقصط-20 {max-height: 5rem;}
+.ئقصط-24 {max-height: 6rem;}
+.ئقصط-28 {max-height: 7rem;}
+.ئقصط-32 {max-height: 8rem;}
+.ئقصط-36 {max-height: 9rem;}
+.ئقصط-40 {max-height: 10rem;}
+.ئقصط-44 {max-height: 11rem;}
+.ئقصط-48 {max-height: 12rem;}
+.ئقصط-52 {max-height: 13rem;}
+.ئقصط-56 {max-height: 14rem;}
+.ئقصط-60 {max-height: 15rem;}
+.ئقصط-64 {max-height: 16rem;}
+.ئقصط-72 {max-height: 18rem;}
+.ئقصط-مئة {max-height: 100px;}
+.ئقصط-مئتان {max-height: 200px;}
+.ئقصط-تلاتمئة {max-height: 300px;}
+.ئقصط-ئربعمئة {max-height: 400px;}
+.ئقصط-خمسمئة {max-height: 500px;}
+.ئقصط-ستمئة {max-height: 600px;}
+.ئقصط-سبعمئة {max-height: 700px;}
+.ئقصط-تمانمئة {max-height: 800px;}
+.ئقصط-تسعمئة {max-height: 900px;}
+.ئقصط-عشرة { max-height: 10%; }
+.ئقصط-عشرون { max-height: 20%; }
+.ئقصط-تلاتون { max-height: 30%; }
+.ئقصط-ئربعون { max-height: 40%; }
+.ئقصط-ستون { max-height: 60%; }
+.ئقصط-سبعون { max-height: 70%; }
+.ئقصط-تمانون { max-height: 80%; }
+.ئقصط-تسعون { max-height: 90%; }
+.ئقصط-نصف { max-height: 50%; }
+.ئقصط-تلت { max-height: 33.333333%; }
+.ئقصط-ربع { max-height: 25%; }
+.ئقصط-ئلاربع { max-height: 75% }
+.ئقصط-كامل { max-height: 100%; }
+.ئقصط-شاشة { max-height: 100vh; }
+.ئقصط-محتوا {max-height: fit-content;}
+
+.نص-يلتف {text-wrap: wrap;}
+.نص-لايلتف {text-wrap: nowrap;}
+.نص-متوازن {text-wrap: balance;}
+.نص-جميل {text-wrap: pretty;}
+
+.ئساس-0 {flex-basis: 0px;}
+.ئساس-1 {flex-basis: 0.25rem;}
+.ئساس-2 {flex-basis: 0.5rem;}
+.ئساس-3 {flex-basis: 0.75rem;}
+.ئساس-4 {flex-basis: 1rem;}
+.ئساس-5 {flex-basis: 1.25rem;}
+.ئساس-6 {flex-basis: 1.5rem;}
+.ئساس-7 {flex-basis: 1.75rem;}
+.ئساس-8 {flex-basis: 2rem;}
+.ئساس-9 {flex-basis: 2.25rem;}
+.ئساس-10 {flex-basis: 2.5rem;}
+.ئساس-11 {flex-basis: 2.75rem;}
+.ئساس-12 {flex-basis: 3rem;}
+.ئساس-14 {flex-basis: 3.5rem;}
+.ئساس-16 {flex-basis: 4rem;}
+.ئساس-20 {flex-basis: 5rem;}
+.ئساس-24 {flex-basis: 6rem;}
+.ئساس-28 {flex-basis: 7rem;}
+.ئساس-32 {flex-basis: 8rem;}
+.ئساس-36 {flex-basis: 9rem;}
+.ئساس-40 {flex-basis: 10rem;}
+.ئساس-44 {flex-basis: 11rem;}
+.ئساس-48 {flex-basis: 12rem;}
+.ئساس-52 {flex-basis: 13rem;}
+.ئساس-56 {flex-basis: 14rem;}
+.ئساس-60 {flex-basis: 15rem;}
+.ئساس-64 {flex-basis: 16rem;}
+.ئساس-72 {flex-basis: 18rem;}
+.ئساس-80 {flex-basis: 20rem;}
+.ئساس-96 {flex-basis: 24rem;}
+.ئساس-تلقا {flex-basis: auto;}
+.ئساس-نصف {flex-basis: 50%;}
+.ئساس-ربع {flex-basis: 33.333333%;}
+.ئساس-ئلاربع {flex-basis: 66.666667%;}
+.ئساس-كامل {flex-basis: 100%;}
+
+.خلف-حيادي-50 {background-color: rgb(250 250 250);} /* حيادي-50 */
+.خلف-حيادي-100 {background-color: rgb(245 245 245);} /* حيادي-100 */
+.خلف-حيادي-200 {background-color: rgb(229 229 229);} /* حيادي-200 */
+.خلف-حيادي-300 {background-color: rgb(212 212 212);} /* حيادي-300 */
+.خلف-حيادي-400 {background-color: rgb(163 163 163);} /* حيادي-400 */
+.خلف-حيادي-500 {background-color: rgb(115 115 115);} /* حيادي-500 */
+.خلف-حيادي-600 {background-color: rgb(82 82 82);} /* حيادي-600 */
+.خلف-حيادي-700 {background-color: rgb(64 64 64);} /* حيادي-700 */
+.خلف-حيادي-800 {background-color: rgb(38 38 38);} /* حيادي-800 */
+.خلف-حيادي-900 {background-color: rgb(23 23 23);} /* حيادي-900 */
+.خلف-حيادي-950 {background-color: rgb(10 10 10);} /* حيادي-950 */
+.نص-حيادي-50 {color: rgb(250 250 250);}
+.نص-حيادي-100 {color: rgb(245 245 245);}
+.نص-حيادي-200 {color: rgb(229 229 229);}
+.نص-حيادي-300 {color: rgb(212 212 212);}
+.نص-حيادي-400 {color: rgb(163 163 163);}
+.نص-حيادي-500 {color: rgb(115 115 115);}
+.نص-حيادي-600 {color: rgb(82 82 82);}
+.نص-حيادي-700 {color: rgb(64 64 64);}
+.نص-حيادي-800 {color: rgb(38 38 38);}
+.نص-حيادي-900 {color: rgb(23 23 23);}
+.نص-حيادي-950 {color: rgb(10 10 10);}
+.حيادي-50 {color: rgb(250 250 250);}
+.حيادي-100 {color: rgb(245 245 245);}
+.حيادي-200 {color: rgb(229 229 229);}
+.حيادي-300 {color: rgb(212 212 212);}
+.حيادي-400 {color: rgb(163 163 163);}
+.حيادي-500 {color: rgb(115 115 115);}
+.حيادي-600 {color: rgb(82 82 82);}
+.حيادي-700 {color: rgb(64 64 64);}
+.حيادي-800 {color: rgb(38 38 38);}
+.حيادي-900 {color: rgb(23 23 23);}
+.حيادي-950 {color: rgb(10 10 10);}
+
+.ئصفف-ضمني-مركز {vertical-align: baseline;}
+.ئصفف-ضمني-فوق {vertical-align: top;}
+.ئصفف-ضمني-وسط {vertical-align: middle;}
+.ئصفف-ضمني-تحت {vertical-align: bottom;}
+.ئصفف-نص-فوق {vertical-align: text-top;}
+.ئصفف-نص-تحت {vertical-align: text-bottom;}
+
+.خلف-ئزرق-50 {background-color: rgb(239 246 255);} /* .ئزرق-50 */
+.خلف-ئزرق-100 {background-color: rgb(219 234 254);} /* .ئزرق-100 */
+.خلف-ئزرق-200 {background-color: rgb(191 219 254);} /* .ئزرق-200 */
+.خلف-ئزرق-300 {background-color: rgb(147 197 253);} /* .ئزرق-300 */
+.خلف-ئزرق-400 {background-color: rgb(96 165 250);} /* .ئزرق-400 */
+.خلف-ئزرق-500 {background-color: rgb(59 130 246);} /* .ئزرق-500 */
+.خلف-ئزرق-600 {background-color: rgb(37 99 235);} /* .ئزرق-600 */
+.خلف-ئزرق-700 {background-color: rgb(29 78 216);} /* .ئزرق-700 */
+.خلف-ئزرق-800 {background-color: rgb(30 64 175);} /* .ئزرق-800 */
+.خلف-ئزرق-900 {background-color: rgb(30 58 138);} /* .ئزرق-900 */
+.خلف-ئزرق-950 {background-color: rgb(23 37 84);} /* .ئزرق-950 */
+.نص-ئزرق-50 {color: rgb(239 246 255);}
+.نص-ئزرق-100 {color: rgb(219 234 254);}
+.نص-ئزرق-200 {color: rgb(191 219 254);}
+.نص-ئزرق-300 {color: rgb(147 197 253);}
+.نص-ئزرق-400 {color: rgb(96 165 250);}
+.نص-ئزرق-500 {color: rgb(59 130 246);}
+.نص-ئزرق-600 {color: rgb(37 99 235);}
+.نص-ئزرق-700 {color: rgb(29 78 216);}
+.نص-ئزرق-800 {color: rgb(30 64 175);}
+.نص-ئزرق-900 {color: rgb(30 58 138);}
+.نص-ئزرق-950 {color: rgb(23 37 84);}
+.ئزرق-50 {color: rgb(239 246 255);}
+.ئزرق-100 {color: rgb(219 234 254);}
+.ئزرق-200 {color: rgb(191 219 254);}
+.ئزرق-300 {color: rgb(147 197 253);}
+.ئزرق-400 {color: rgb(96 165 250);}
+.ئزرق-500 {color: rgb(59 130 246);}
+.ئزرق-600 {color: rgb(37 99 235);}
+.ئزرق-700 {color: rgb(29 78 216);}
+.ئزرق-800 {color: rgb(30 64 175);}
+.ئزرق-900 {color: rgb(30 58 138);}
+.ئزرق-950 {color: rgb(23 37 84);}
+.ئطار-ئزرق-50 {border-color: rgb(239 246 255);} /* .ئزرق-50 */
+.ئطار-ئزرق-100 {border-color: rgb(219 234 254);} /* .ئزرق-100 */
+.ئطار-ئزرق-200 {border-color: rgb(191 219 254);} /* .ئزرق-200 */
+.ئطار-ئزرق-300 {border-color: rgb(147 197 253);} /* .ئزرق-300 */
+.ئطار-ئزرق-400 {border-color: rgb(96 165 250);} /* .ئزرق-400 */
+.ئطار-ئزرق-500 {border-color: rgb(59 130 246);} /* .ئزرق-500 */
+.ئطار-ئزرق-600 {border-color: rgb(37 99 235);} /* .ئزرق-600 */
+.ئطار-ئزرق-700 {border-color: rgb(29 78 216);} /* .ئزرق-700 */
+.ئطار-ئزرق-800 {border-color: rgb(30 64 175);} /* .ئزرق-800 */
+.ئطار-ئزرق-900 {border-color: rgb(30 58 138);} /* .ئزرق-900 */
+.ئطار-ئزرق-950 {border-color: rgb(23 37 84);} /* .ئزرق-950 */
+
+.تحتهسطر {text-decoration-line: underline;}
+.فوقهسطر {text-decoration-line: overline;}
+.وسطهسطر {text-decoration-line: line-through;}
+.بلاسطر {text-decoration-line: none;}
+
+.رتبة-1 {order: 1;}
+.رتبة-2 {order: 2;}
+.رتبة-3 {order: 3;}
+.رتبة-4 {order: 4;}
+.رتبة-5 {order: 5;}
+.رتبة-6 {order: 6;}
+.رتبة-7 {order: 7;}
+.رتبة-8 {order: 8;}
+.رتبة-9 {order: 9;}
+.رتبة-10 {order: 10;}
+.رتبة-11 {order: 11;}
+.رتبة-12 {order: 12;}
+.رتبة-ئول {order: -9999;}
+.رتبة-ئخير {order: 9999;}
+.رتبة-بلا {order: 0;}
+.بلارتبة {order: 0;}
+
+.يكبر-0 {flex-grow: 0;}
+.يكبر {flex-grow: 1;}
+.يصغر-0 {flex-shrink: 0;}
+.يصغر {flex-shrink: 1;}
+.يملئ {flex: 1 1 auto;}
+
+.فلكس-يلتف {flex-wrap: wrap;}
+.فلكس-لايلتف {flex-wrap: nowrap;}
+.فلكس-يلتف-عكسي {flex-wrap: wrap-reverse;}
+.مخطط-يلتف {flex-wrap: wrap;}
+.مخطط-لايلتف {flex-wrap: nowrap;}
+.مخطط-يلتف-عكسي {flex-wrap: wrap-reverse;}
+
+.نفسه-تلقا {align-self: auto;}
+.نفسه-بداية {align-self: flex-start;}
+.نفسه-نهاية {align-self: flex-end;}
+.نفسه-وسط {align-self: center;}
+.نفسه-يتمدد {align-self: stretch;}
+.نفسه-يوازي {align-self: baseline;}
+
+.خلف-سيان-50 {background-color: rgb(236 254 255);}
+.خلف-سيان-100 {background-color: rgb(207 250 254);}
+.خلف-سيان-200 {background-color: rgb(165 243 252);}
+.خلف-سيان-300 {background-color: rgb(103 232 249);}
+.خلف-سيان-400 {background-color: rgb(34 211 238);}
+.خلف-سيان-500 {background-color: rgb(6 182 212);}
+.خلف-سيان-600 {background-color: rgb(8 145 178);}
+.خلف-سيان-700 {background-color: rgb(14 116 144);}
+.خلف-سيان-800 {background-color: rgb(21 94 117);}
+.خلف-سيان-900 {background-color: rgb(22 78 99);}
+.خلف-سيان-950 {background-color: rgb(8 51 68);}
+.نص-سيان-50 {color: rgb(236 254 255);}
+.نص-سيان-100 {color: rgb(207 250 254);}
+.نص-سيان-200 {color: rgb(165 243 252);}
+.نص-سيان-300 {color: rgb(103 232 249);}
+.نص-سيان-400 {color: rgb(34 211 238);}
+.نص-سيان-500 {color: rgb(6 182 212);}
+.نص-سيان-600 {color: rgb(8 145 178);}
+.نص-سيان-700 {color: rgb(14 116 144);}
+.نص-سيان-800 {color: rgb(21 94 117);}
+.نص-سيان-900 {color: rgb(22 78 99);}
+.نص-سيان-950 {color: rgb(8 51 68);}
+.سيان-50 {color: rgb(236 254 255);}
+.سيان-100 {color: rgb(207 250 254);}
+.سيان-200 {color: rgb(165 243 252);}
+.سيان-300 {color: rgb(103 232 249);}
+.سيان-400 {color: rgb(34 211 238);}
+.سيان-500 {color: rgb(6 182 212);}
+.سيان-600 {color: rgb(8 145 178);}
+.سيان-700 {color: rgb(14 116 144);}
+.سيان-800 {color: rgb(21 94 117);}
+.سيان-900 {color: rgb(22 78 99);}
+.سيان-950 {color: rgb(8 51 68);}
+
+.حش-0 {padding: 0px;}
+.حشس-0 {padding-left: 0px;padding-right: 0px;}
+.حشص-0 {padding-top: 0px;padding-bottom: 0px;}
+.حشفو-0 {padding-top: 0px;}
+.حشيم-0 {padding-inline-start: 0px;}
+.حشبد-0 {padding-inline-start: 0px;}
+.حشتح-0 {padding-bottom: 0px;}
+.حشيس-0 {padding-inline-end: 0px;}
+.حشنه-0 {padding-inline-end: 0px;}
+.حش-1 {padding: 0.25rem;}
+.حشس-1 {padding-left: 0.25rem;padding-right: 0.25rem;}
+.حشص-1 {padding-top: 0.25rem;padding-bottom: 0.25rem;}
+.حشفو-1 {padding-top: 0.25rem;}
+.حشيم-1 {padding-inline-start: 0.25rem;}
+.حشبد-1 {padding-inline-start: 0.25rem;}
+.حشتح-1 {padding-bottom: 0.25rem;}
+.حشيس-1 {padding-inline-end: 0.25rem;}
+.حشنه-1 {padding-inline-end: 0.25rem;}
+.حش-2 {padding: 0.5rem;}
+.حشس-2 {padding-left: 0.5rem;padding-right: 0.5rem;}
+.حشص-2 {padding-top: 0.5rem;padding-bottom: 0.5rem;}
+.حشفو-2 {padding-top: 0.5rem;}
+.حشيم-2 {padding-inline-start: 0.5rem;}
+.حشبد-2 {padding-inline-start: 0.5rem;}
+.حشتح-2 {padding-bottom: 0.5rem;}
+.حشنه-2 {padding-inline-end: 0.5rem;}
+.حشيس-2 {padding-inline-end: 0.5rem;}
+.حش-3 {padding: 0.75rem;}
+.حشس-3 {padding-left: 0.75rem;padding-right: 0.75rem;}
+.حشص-3 {padding-top: 0.75rem;padding-bottom: 0.75rem;}
+.حشفو-3 {padding-top: 0.75rem;}
+.حشيم-3 {padding-inline-start: 0.75rem;}
+.حشبد-3 {padding-inline-start: 0.75rem;}
+.حشتح-3 {padding-bottom: 0.75rem;}
+.حشيس-3 {padding-inline-end: 0.75rem;}
+.حشنه-3 {padding-inline-end: 0.75rem;}
+.حش-4 {padding: 1rem;}
+.حشس-4 {padding-left: 1rem;padding-right: 1rem;}
+.حشص-4 {padding-top: 1rem;padding-bottom: 1rem;}
+.حشفو-4 {padding-top: 1rem;}
+.حشبد-4 {padding-inline-start: 1rem;}
+.حشيم-4 {padding-inline-start: 1rem;}
+.حشتح-4 {padding-bottom: 1rem;}
+.حشنه-4 {padding-inline-end: 1rem;}
+.حشيس-4 {padding-inline-end: 1rem;}
+.حش-5 {padding: 1.25rem;}
+.حشس-5 {padding-left: 1.25rem;padding-right: 1.25rem;}
+.حشص-5 {padding-top: 1.25rem;padding-bottom: 1.25rem;}
+.حشفو-5 {padding-top: 1.25rem;}
+.حشيم-5 {padding-inline-start: 1.25rem;}
+.حشبد-5 {padding-inline-start: 1.25rem;}
+.حشتح-5 {padding-bottom: 1.25rem;}
+.حشيس-5 {padding-inline-end: 1.25rem;}
+.حشنه-5 {padding-inline-end: 1.25rem;}
+.حش-6 {padding: 1.5rem;}
+.حشس-6 {padding-left: 1.5rem;padding-right: 1.5rem;}
+.حشص-6 {padding-top: 1.5rem;padding-bottom: 1.5rem;}
+.حشفو-6 {padding-top: 1.5rem;}
+.حشيم-6 {padding-inline-start: 1.5rem;}
+.حشبد-6 {padding-inline-start: 1.5rem;}
+.حشتح-6 {padding-bottom: 1.5rem;}
+.حشيس-6 {padding-inline-end: 1.5rem;}
+.حشنه-6 {padding-inline-end: 1.5rem;}
+.حش-7 {padding: 1.75rem;}
+.حشس-7 {padding-left: 1.75rem;padding-right: 1.75rem;}
+.حشص-7 {padding-top: 1.75rem;padding-bottom: 1.75rem;}
+.حشفو-7 {padding-top: 1.75rem;}
+.حشيم-7 {padding-inline-start: 1.75rem;}
+.حشبد-7 {padding-inline-start: 1.75rem;}
+.حشتح-7 {padding-bottom: 1.75rem;}
+.حشيس-7 {padding-inline-end: 1.75rem;}
+.حشنه-7 {padding-inline-end: 1.75rem;}
+.حش-8 {padding: 2rem;}
+.حشس-8 {padding-left: 2rem;padding-right: 2rem;}
+.حشص-8 {padding-top: 2rem;padding-bottom: 2rem;}
+.حشفو-8 {padding-top: 2rem;}
+.حشيم-8 {padding-inline-start: 2rem;}
+.حشبد-8 {padding-inline-start: 2rem;}
+.حشتح-8 {padding-bottom: 2rem;}
+.حشيس-8 {padding-inline-end: 2rem;}
+.حشنه-8 {padding-inline-end: 2rem;}
+.حش-9 {padding: 2.25rem;}
+.حشس-9 {padding-left: 2.25rem;padding-right: 2.25rem;}
+.حشص-9 {padding-top: 2.25rem;padding-bottom: 2.25rem;}
+.حشفو-9 {padding-top: 2.25rem;}
+.حشبد-9 {padding-inline-start: 2.25rem;}
+.حشيم-9 {padding-inline-start: 2.25rem;}
+.حشتح-9 {padding-bottom: 2.25rem;}
+.حشيس-9 {padding-inline-end: 2.25rem;}
+.حشنه-9 {padding-inline-end: 2.25rem;}
+.حش-10 {padding: 2.5rem;}
+.حشس-10 {padding-left: 2.5rem;padding-right: 2.5rem;}
+.حشص-10 {padding-top: 2.5rem;padding-bottom: 2.5rem;}
+.حشفو-10 {padding-top: 2.5rem;}
+.حشبد-10 {padding-inline-start: 2.5rem;}
+.حشيم-10 {padding-inline-start: 2.5rem;}
+.حشتح-10 {padding-bottom: 2.5rem;}
+.حشيس-10 {padding-inline-end: 2.5rem;}
+.حشنه-10 {padding-inline-end: 2.5rem;}
+.حش-11 {padding: 2.75rem;}
+.حشس-11 {padding-left: 2.75rem;padding-right: 2.75rem;}
+.حشص-11 {padding-top: 2.75rem;padding-bottom: 2.75rem;}
+.حشفو-11 {padding-top: 2.75rem;}
+.حشبد-11 {padding-inline-start: 2.75rem;}
+.حشيم-11 {padding-inline-start: 2.75rem;}
+.حشتح-11 {padding-bottom: 2.75rem;}
+.حشيس-11 {padding-inline-end: 2.75rem;}
+.حشنه-11 {padding-inline-end: 2.75rem;}
+.حش-12 {padding: 3rem;}
+.حشس-12 {padding-left: 3rem;padding-right: 3rem;}
+.حشص-12 {padding-top: 3rem;padding-bottom: 3rem;}
+.حشفو-12 {padding-top: 3rem;}
+.حشبد-12 {padding-inline-start: 3rem;}
+.حشيم-12 {padding-inline-start: 3rem;}
+.حشتح-12 {padding-bottom: 3rem;}
+.حشيس-12 {padding-inline-end: 3rem;}
+.حشنه-12 {padding-inline-end: 3rem;}
+.حش-14 {padding: 3.5rem;}
+.حشس-14 {padding-left: 3.5rem;padding-right: 3.5rem;}
+.حشص-14 {padding-top: 3.5rem;padding-bottom: 3.5rem;}
+.حشفو-14 {padding-top: 3.5rem;}
+.حشبد-14 {padding-inline-start: 3.5rem;}
+.حشيم-14 {padding-inline-start: 3.5rem;}
+.حشتح-14 {padding-bottom: 3.5rem;}
+.حشيس-14 {padding-inline-end: 3.5rem;}
+.حشنه-14 {padding-inline-end: 3.5rem;}
+.حش-16 {padding: 4rem;}
+.حشس-16 {padding-left: 4rem;padding-right: 4rem;}
+.حشص-16 {padding-top: 4rem;padding-bottom: 4rem;}
+.حشفو-16 {padding-top: 4rem;}
+.حشبد-16 {padding-inline-start: 4rem;}
+.حشيم-16 {padding-inline-start: 4rem;}
+.حشتح-16 {padding-bottom: 4rem;}
+.حشيس-16 {padding-inline-end: 4rem;}
+.حشنه-16 {padding-inline-end: 4rem;}
+.حش-20 {padding: 5rem;}
+.حشس-20 {padding-left: 5rem;padding-right: 5rem;}
+.حشص-20 {padding-top: 5rem;padding-bottom: 5rem;}
+.حشفو-20 {padding-top: 5rem;}
+.حشبد-20 {padding-inline-start: 5rem;}
+.حشيم-20 {padding-inline-start: 5rem;}
+.حشتح-20 {padding-bottom: 5rem;}
+.حشيس-20 {padding-inline-end: 5rem;}
+.حشنه-20 {padding-inline-end: 5rem;}
+.حش-24 {padding: 6rem;}
+.حشس-24 {padding-left: 6rem;padding-right: 6rem;}
+.حشص-24 {padding-top: 6rem;padding-bottom: 6rem;}
+.حشفو-24 {padding-top: 6rem;}
+.حشبد-24 {padding-inline-start: 6rem;}
+.حشيم-24 {padding-inline-start: 6rem;}
+.حشتح-24 {padding-bottom: 6rem;}
+.حشيس-24 {padding-inline-end: 6rem;}
+.حشنه-24 {padding-inline-end: 6rem;}
+.حش-28 {padding: 7rem;}
+.حشس-28 {padding-left: 7rem;padding-right: 7rem;}
+.حشص-28 {padding-top: 7rem;padding-bottom: 7rem;}
+.حشفو-28 {padding-top: 7rem;}
+.حشبد-28 {padding-inline-start: 7rem;}
+.حشيم-28 {padding-inline-start: 7rem;}
+.حشتح-28 {padding-bottom: 7rem;}
+.حشيس-28 {padding-inline-end: 7rem;}
+.حشنه-28 {padding-inline-end: 7rem;}
+.حش-32 {padding: 8rem;}
+.حشس-32 {padding-left: 8rem;padding-right: 8rem;}
+.حشص-32 {padding-top: 8rem;padding-bottom: 8rem;}
+.حشفو-32 {padding-top: 8rem;}
+.حشبد-32 {padding-inline-start: 8rem;}
+.حشيم-32 {padding-inline-start: 8rem;}
+.حشتح-32 {padding-bottom: 8rem;}
+.حشيس-32 {padding-inline-end: 8rem;}
+.حشنه-32 {padding-inline-end: 8rem;}
+.حش-36 {padding: 9rem;}
+.حشس-36 {padding-left: 9rem;padding-right: 9rem;}
+.حشص-36 {padding-top: 9rem;padding-bottom: 9rem;}
+.حشفو-36 {padding-top: 9rem;}
+.حشبد-36 {padding-inline-start: 9rem;}
+.حشيم-36 {padding-inline-start: 9rem;}
+.حشتح-36 {padding-bottom: 9rem;}
+.حشيس-36 {padding-inline-end: 9rem;}
+.حشنه-36 {padding-inline-end: 9rem;}
+.حش-40 {padding: 10rem;}
+.حشس-40 {padding-left: 10rem;padding-right: 10rem;}
+.حشص-40 {padding-top: 10rem;padding-bottom: 10rem;}
+.حشفو-40 {padding-top: 10rem;}
+.حشبد-40 {padding-inline-start: 10rem;}
+.حشيم-40 {padding-inline-start: 10rem;}
+.حشتح-40 {padding-bottom: 10rem;}
+.حشيس-40 {padding-inline-end: 10rem;}
+.حشنه-40 {padding-inline-end: 10rem;}
+.حش-44 {padding: 11rem;}
+.حشس-44 {padding-left: 11rem;padding-right: 11rem;}
+.حشص-44 {padding-top: 11rem;padding-bottom: 11rem;}
+.حشفو-44 {padding-top: 11rem;}
+.حشبد-44 {padding-inline-start: 11rem;}
+.حشيم-44 {padding-inline-start: 11rem;}
+.حشتح-44 {padding-bottom: 11rem;}
+.حشيس-44 {padding-inline-end: 11rem;}
+.حشنه-44 {padding-inline-end: 11rem;}
+.حش-48 {padding: 12rem;}
+.حشس-48 {padding-left: 12rem;padding-right: 12rem;}
+.حشص-48 {padding-top: 12rem;padding-bottom: 12rem;}
+.حشفو-48 {padding-top: 12rem;}
+.حشبد-48 {padding-inline-start: 12rem;}
+.حشيم-48 {padding-inline-start: 12rem;}
+.حشتح-48 {padding-bottom: 12rem;}
+.حشيس-48 {padding-inline-end: 12rem;}
+.حشنه-48 {padding-inline-end: 12rem;}
+.حش-52 {padding: 13rem;}
+.حشس-52 {padding-left: 13rem;padding-right: 13rem;}
+.حشص-52 {padding-top: 13rem;padding-bottom: 13rem;}
+.حشفو-52 {padding-top: 13rem;}
+.حشبد-52 {padding-inline-start: 13rem;}
+.حشيم-52 {padding-inline-start: 13rem;}
+.حشتح-52 {padding-bottom: 13rem;}
+.حشيس-52 {padding-inline-end: 13rem;}
+.حشنه-52 {padding-inline-end: 13rem;}
+.حش-56 {padding: 14rem;}
+.حشس-56 {padding-left: 14rem;padding-right: 14rem;}
+.حشص-56 {padding-top: 14rem;padding-bottom: 14rem;}
+.حشفو-56 {padding-top: 14rem;}
+.حشبد-56 {padding-inline-start: 14rem;}
+.حشيم-56 {padding-inline-start: 14rem;}
+.حشتح-56 {padding-bottom: 14rem;}
+.حشيس-56 {padding-inline-end: 14rem;}
+.حشنه-56 {padding-inline-end: 14rem;}
+.حش-60 {padding: 15rem;}
+.حشس-60 {padding-left: 15rem;padding-right: 15rem;}
+.حشص-60 {padding-top: 15rem;padding-bottom: 15rem;}
+.حشفو-60 {padding-top: 15rem;}
+.حشبد-60 {padding-inline-start: 15rem;}
+.حشيم-60 {padding-inline-start: 15rem;}
+.حشتح-60 {padding-bottom: 15rem;}
+.حشيس-60 {padding-inline-end: 15rem;}
+.حشنه-60 {padding-inline-end: 15rem;}
+.حش-64 {padding: 16rem;}
+.حشس-64 {padding-left: 16rem;padding-right: 16rem;}
+.حشص-64 {padding-top: 16rem;padding-bottom: 16rem;}
+.حشفو-64 {padding-top: 16rem;}
+.حشبد-64 {padding-inline-start: 16rem;}
+.حشيم-64 {padding-inline-start: 16rem;}
+.حشتح-64 {padding-bottom: 16rem;}
+.حشيس-64 {padding-inline-end: 16rem;}
+.حشنه-64 {padding-inline-end: 16rem;}
+.حش-68 {padding: 17rem;}
+.حشس-68 {padding-left: 17rem;padding-right: 17rem;}
+.حشص-68 {padding-top: 17rem;padding-bottom: 17rem;}
+.حشفو-68 {padding-top: 17rem;}
+.حشبد-68 {padding-inline-start: 17rem;}
+.حشيم-68 {padding-inline-start: 17rem;}
+.حشتح-68 {padding-bottom: 17rem;}
+.حشيس-68 {padding-inline-end: 17rem;}
+.حشنه-68 {padding-inline-end: 17rem;}
+.حش-72 {padding: 18rem;}
+.حشس-72 {padding-left: 18rem;padding-right: 18rem;}
+.حشص-72 {padding-top: 18rem;padding-bottom: 18rem;}
+.حشفو-72 {padding-top: 18rem;}
+.حشبد-72 {padding-inline-start: 18rem;}
+.حشيم-72 {padding-inline-start: 18rem;}
+.حشتح-72 {padding-bottom: 18rem;}
+.حشيس-72 {padding-inline-end: 18rem;}
+.حشنه-72 {padding-inline-end: 18rem;}
+
+.فجوة-0 {gap: 0px;}
+.فجوة-0\.5 {gap: 0.125rem;}
+.فجوة-1 {gap: 0.25rem;}
+.فجوة-1\.5 {gap: 0.375rem;}
+.فجوة-2 {gap: 0.5rem;}
+.فجوة-2\.5 {gap: 0.625rem;}
+.فجوة-3 {gap: 0.75rem;}
+.فجوة-3\.5 {gap: 0.875rem;}
+.فجوة-4 {gap: 1rem;}
+.فجوة-5 {gap: 1.25rem;}
+.فجوة-6 {gap: 1.5rem;}
+.فجوة-7 {gap: 1.75rem;}
+.فجوة-8 {gap: 2rem;}
+.فجوة-9 {gap: 2.25rem;}
+.فجوة-10 {gap: 2.5rem;}
+.فجوة-11 {gap: 2.75rem;}
+.فجوة-12 {gap: 3rem;}
+.فجوة-عشرة {gap: 10px;}
+.فجوة-عشرون {gap: 20px;}
+.فجوة-تلاتون {gap: 30px;}
+.فجوة-ئربعون {gap: 40px;}
+.فجوة-خمسون {gap: 50px;}
+.فجوة-ستون {gap: 60px;}
+.فجوة-سبعون {gap: 70px;}
+.فجوة-تمانون {gap: 80px;}
+.فجوة-تسعون {gap: 90px;}
+
+.خلف-زمرد-50 {background-color: rgb(236 253 245);}
+.خلف-زمرد-100 {background-color: rgb(209 250 229);}
+.خلف-زمرد-200 {background-color: rgb(167 243 208);}
+.خلف-زمرد-300 {background-color: rgb(110 231 183);}
+.خلف-زمرد-400 {background-color: rgb(52 211 153);}
+.خلف-زمرد-500 {background-color: rgb(16 185 129);}
+.خلف-زمرد-600 {background-color: rgb(5 150 105);}
+.خلف-زمرد-700 {background-color: rgb(4 120 87);}
+.خلف-زمرد-800 {background-color: rgb(6 95 70);}
+.خلف-زمرد-900 {background-color: rgb(6 78 59);}
+.خلف-زمرد-950 {background-color: rgb(2 44 34);}
+.نص-زمرد-50 {color: rgb(236 253 245);}
+.نص-زمرد-100 {color: rgb(209 250 229);}
+.نص-زمرد-200 {color: rgb(167 243 208);}
+.نص-زمرد-300 {color: rgb(110 231 183);}
+.نص-زمرد-400 {color: rgb(52 211 153);}
+.نص-زمرد-500 {color: rgb(16 185 129);}
+.نص-زمرد-600 {color: rgb(5 150 105);}
+.نص-زمرد-700 {color: rgb(4 120 87);}
+.نص-زمرد-800 {color: rgb(6 95 70);}
+.نص-زمرد-900 {color: rgb(6 78 59);}
+.نص-زمرد-950 {color: rgb(2 44 34);}
+.زمرد-50 {color: rgb(236 253 245);}
+.زمرد-100 {color: rgb(209 250 229);}
+.زمرد-200 {color: rgb(167 243 208);}
+.زمرد-300 {color: rgb(110 231 183);}
+.زمرد-400 {color: rgb(52 211 153);}
+.زمرد-500 {color: rgb(16 185 129);}
+.زمرد-600 {color: rgb(5 150 105);}
+.زمرد-700 {color: rgb(4 120 87);}
+.زمرد-800 {color: rgb(6 95 70);}
+.زمرد-900 {color: rgb(6 78 59);}
+.زمرد-950 {color: rgb(2 44 34);}
+
+.ضلصغ {box-shadow: 0 1px 2px 0;}
+.ضل {box-shadow: 0 1px 3px 0 , 0 1px 2px -1px ;}
+.ضلمت {box-shadow: 0 4px 6px -1px , 0 2px 4px -2px ;}
+.ضلكب {box-shadow: 0 10px 15px -3px , 0 4px 6px -4px ;}
+.ضلكج {box-shadow: 0 20px 25px -5px , 0 8px 10px -6px ;}
+.ضلكجج {box-shadow: 0 25px 50px -12px ;}
+.ضلداخل {box-shadow: inset 0 2px 4px 0 ;}
+.ضلبلا {box-shadow: 0 0 ;}
+.ضلملتف { box-shadow: 0px 0px 8px;}
+
+.نصصج {font-size: 0.75rem;line-height: 1rem;}
+.نصصغ {font-size: 0.875rem;line-height: 1.25rem;}
+.نصعادي {font-size: 1rem;line-height: 1.5rem;}
+.نصكب {font-size: 1.125rem;line-height: 1.75rem;}
+.نصكج {font-size: 1.25rem;line-height: 1.75rem;}
+.نصكجج {font-size: 1.5rem;line-height: 2rem;}
+.نصكج3 {font-size: 1.875rem;line-height: 2.25rem;}
+.نصكج4 {font-size: 2.25rem;line-height: 2.5rem;}
+.نصكج5 {font-size: 3rem;line-height: 1;}
+.نصكج6 {font-size: 3.75rem;line-height: 1;}
+.نصكج7 {font-size: 4.5rem;line-height: 1;}
+.نصكج8 {font-size: 6rem;line-height: 1;}
+.نصكج9 {font-size: 8rem;line-height: 1;}
+
+.خلف-شرشير-50 {background-color: rgb(240 253 250);} /* .شرشير-50 */
+.خلف-شرشير-100 {background-color: rgb(204 251 241);} /* .شرشير-100 */
+.خلف-شرشير-200 {background-color: rgb(153 246 228);} /* .شرشير-200 */
+.خلف-شرشير-300 {background-color: rgb(94 234 212);} /* .شرشير-300 */
+.خلف-شرشير-400 {background-color: rgb(45 212 191);} /* .شرشير-400 */
+.خلف-شرشير-500 {background-color: rgb(20 184 166);} /* .شرشير-500 */
+.خلف-شرشير-600 {background-color: rgb(13 148 136);} /* .شرشير-600 */
+.خلف-شرشير-700 {background-color: rgb(15 118 110);} /* .شرشير-700 */
+.خلف-شرشير-800 {background-color: rgb(17 94 89);} /* .شرشير-800 */
+.خلف-شرشير-900 {background-color: rgb(19 78 74);} /* .شرشير-900 */
+.خلف-شرشير-950 {background-color: rgb(4 47 46);} /* .شرشير-950 */
+.نص-شرشير-50 {color: rgb(240 253 250);}
+.نص-شرشير-100 {color: rgb(204 251 241);}
+.نص-شرشير-200 {color: rgb(153 246 228);}
+.نص-شرشير-300 {color: rgb(94 234 212);}
+.نص-شرشير-400 {color: rgb(45 212 191);}
+.نص-شرشير-500 {color: rgb(20 184 166);}
+.نص-شرشير-600 {color: rgb(13 148 136);}
+.نص-شرشير-700 {color: rgb(15 118 110);}
+.نص-شرشير-800 {color: rgb(17 94 89);}
+.نص-شرشير-900 {color: rgb(19 78 74);}
+.نص-شرشير-950 {color: rgb(4 47 46);}
+.شرشير-50 {color: rgb(240 253 250);}
+.شرشير-100 {color: rgb(204 251 241);}
+.شرشير-200 {color: rgb(153 246 228);}
+.شرشير-300 {color: rgb(94 234 212);}
+.شرشير-400 {color: rgb(45 212 191);}
+.شرشير-500 {color: rgb(20 184 166);}
+.شرشير-600 {color: rgb(13 148 136);}
+.شرشير-700 {color: rgb(15 118 110);}
+.شرشير-800 {color: rgb(17 94 89);}
+.شرشير-900 {color: rgb(19 78 74);}
+.شرشير-950 {color: rgb(4 47 46);}
+.ئطار-شرشير-50 {background-color: rgb(240 253 250);} /* .شرشير-50 */
+.ئطار-شرشير-100 {background-color: rgb(204 251 241);} /* .شرشير-100 */
+.ئطار-شرشير-200 {background-color: rgb(153 246 228);} /* .شرشير-200 */
+.ئطار-شرشير-300 {background-color: rgb(94 234 212);} /* .شرشير-300 */
+.ئطار-شرشير-400 {background-color: rgb(45 212 191);} /* .شرشير-400 */
+.ئطار-شرشير-500 {background-color: rgb(20 184 166);} /* .شرشير-500 */
+.ئطار-شرشير-600 {background-color: rgb(13 148 136);} /* .شرشير-600 */
+.ئطار-شرشير-700 {background-color: rgb(15 118 110);} /* .شرشير-700 */
+.ئطار-شرشير-800 {background-color: rgb(17 94 89);} /* .شرشير-800 */
+.ئطار-شرشير-900 {background-color: rgb(19 78 74);} /* .شرشير-900 */
+.ئطار-شرشير-950 {background-color: rgb(4 47 46);} /* .شرشير-950 */
+
+.هش-0 {margin: 0px;}
+.هشس-0 {margin-left: 0px;margin-right: 0px;}
+.هشص-0 {margin-top: 0px;margin-bottom: 0px;}
+.هشفو-0 {margin-top: 0px;}
+.هشيم-0 {margin-inline-start:0px}
+.هشبد-0 {margin-inline-start:0px}
+.هشتح-0 {margin-bottom: 0px;}
+.هشيس-0 {margin-inline-end:0px}
+.هشنه-0 {margin-inline-end:0px}
+.هش-1 {margin: 0.25rem;}
+.هشس-1 {margin-left: 0.25rem;margin-right: 0.25rem;}
+.هشص-1 {margin-top: 0.25rem;margin-bottom: 0.25rem;}
+.هشفو-1 {margin-top: 0.25rem;}
+.هشيم-1 {margin-inline-start: 0.25rem;}
+.هشبد-1 {margin-inline-start: 0.25rem;}
+.هشتح-1 {margin-bottom: 0.25rem;}
+.هشيس-1 {margin-inline-end: 0.25rem;}
+.هشنه-1 {margin-inline-end: 0.25rem;}
+.هش-2 {margin: 0.5rem;}
+.هشس-2 {margin-left: 0.5rem;margin-right: 0.5rem;}
+.هشص-2 {margin-top: 0.5rem;margin-bottom: 0.5rem;}
+.هشفو-2 {margin-top: 0.5rem;}
+.هشيم-2 {margin-inline-start: 0.5rem;}
+.هشبد-2 {margin-inline-start: 0.5rem;}
+.هشتح-2 {margin-bottom: 0.5rem;}
+.هشيس-2 {margin-inline-end: 0.5rem;}
+.هشنه-2 {margin-inline-end: 0.5rem;}
+.هش-3 {margin: 0.75rem;}
+.هشس-3 {margin-left: 0.75rem;margin-right: 0.75rem;}
+.هشص-3 {margin-top: 0.75rem;margin-bottom: 0.75rem;}
+.هشفو-3 {margin-top: 0.75rem;}
+.هشيم-3 {margin-inline-start: 0.75rem;}
+.هشبد-3 {margin-inline-start: 0.75rem;}
+.هشتح-3 {margin-bottom: 0.75rem;}
+.هشيس-3 {margin-inline-end: 0.75rem;}
+.هشنه-3 {margin-inline-end: 0.75rem;}
+.هش-4 {margin: 1rem;}
+.هشس-4 {margin-left: 1rem;margin-right: 1rem;}
+.هشص-4 {margin-top: 1rem;margin-bottom: 1rem;}
+.هشفو-4 {margin-top: 1rem;}
+.هشيم-4 {margin-inline-start: 1rem;}
+.هشبد-4 {margin-inline-start: 1rem;}
+.هشتح-4 {margin-bottom: 1rem;}
+.هشيس-4 {margin-inline-end: 1rem;}
+.هشنه-4 {margin-inline-end: 1rem;}
+.هش-5 {margin: 1.25rem;}
+.هشس-5 {margin-left: 1.25rem;margin-right: 1.25rem;}
+.هشص-5 {margin-top: 1.25rem;margin-bottom: 1.25rem;}
+.هشفو-5 {margin-top: 1.25rem;}
+.هشيم-5 {margin-inline-start: 1.25rem;}
+.هشبد-5 {margin-inline-start: 1.25rem;}
+.هشتح-5 {margin-bottom: 1.25rem;}
+.هشيس-5 {margin-inline-end: 1.25rem;}
+.هشنه-5 {margin-inline-end: 1.25rem;}
+.هش-6 {margin: 1.5rem;}
+.هشس-6 {margin-left: 1.25rem;margin-right: 1.5rem;}
+.هشص-6 {margin-top: 1.25rem;margin-bottom: 1.5rem;}
+.هشفو-6 {margin-top: 1.5rem;}
+.هشيم-6 {margin-inline-start: 1.5rem;}
+.هشبد-6 {margin-inline-start: 1.5rem;}
+.هشتح-6 {margin-bottom: 1.5rem;}
+.هشيس-6 {margin-inline-end: 1.5rem;}
+.هشنه-6 {margin-inline-end: 1.5rem;}
+.هش-7 {margin: 1.75rem;}
+.هشس-7 {margin-left: 1.75rem;margin-right: 1.75rem;}
+.هشص-7 {margin-top: 1.75rem;margin-bottom: 1.75rem;}
+.هشفو-7 {margin-top: 1.75rem;}
+.هشيم-7 {margin-inline-start: 1.75rem;}
+.هشبد-7 {margin-inline-start: 1.75rem;}
+.هشتح-7 {margin-bottom: 1.75rem;}
+.هشيس-7 {margin-inline-end: 1.75rem;}
+.هشنه-7 {margin-inline-end: 1.75rem;}
+.هش-8 {margin: 2rem;}
+.هشس-8 {margin-left: 2rem;margin-right: 2rem;}
+.هشص-8 {margin-top: 2rem;margin-bottom: 2rem;}
+.هشفو-8 {margin-top: 2rem;}
+.هشيم-8 {margin-inline-start: 2rem;}
+.هشبد-8 {margin-inline-start: 2rem;}
+.هشتح-8 {margin-bottom: 2rem;}
+.هشيس-8 {margin-inline-end: 2rem;}
+.هشنه-8 {margin-inline-end: 2rem;}
+.هش-9 {margin: 2.25rem;}
+.هشس-9 {margin-left: 2.25rem;margin-right: 2.25rem;}
+.هشص-9 {margin-top: 2.25rem;margin-bottom: 2.25rem;}
+.هشفو-9 {margin-top: 2.25rem;}
+.هشيم-9 {margin-inline-start: 2.25rem;}
+.هشبد-9 {margin-inline-start: 2.25rem;}
+.هشتح-9 {margin-bottom: 2.25rem;}
+.هشيس-9 {margin-inline-end: 2.25rem;}
+.هشنه-9 {margin-inline-end: 2.25rem;}
+.هش-10 {margin: 2.5rem;}
+.هشس-10 {margin-left: 2.5rem;margin-right: 2.5rem;}
+.هشص-10 {margin-top: 2.5rem;margin-bottom: 2.5rem;}
+.هشفو-10 {margin-top: 2.5rem;}
+.هشيم-10 {margin-inline-start: 2.5rem;}
+.هشبد-10 {margin-inline-start: 2.5rem;}
+.هشتح-10 {margin-bottom: 2.5rem;}
+.هشيس-10 {margin-inline-end: 2.5rem;}
+.هشنه-10 {margin-inline-end: 2.5rem;}
+.هش-11 {margin: 2.75rem;}
+.هشس-11 {margin-left: 2.75rem;margin-right: 2.75rem;}
+.هشص-11 {margin-top: 2.75rem;margin-bottom: 2.75rem;}
+.هشفو-11 {margin-top: 2.75rem;}
+.هشيم-11 {margin-inline-start: 2.75rem;}
+.هشبد-11 {margin-inline-start: 2.75rem;}
+.هشتح-11 {margin-bottom: 2.75rem;}
+.هشيس-11 {margin-inline-end: 2.75rem;}
+.هشنه-11 {margin-inline-end: 2.75rem;}
+.هش-12 {margin: 3rem;}
+.هشس-12 {margin-left: 3rem;margin-right: 3rem;}
+.هشص-12 {margin-top: 3rem;margin-bottom: 3rem;}
+.هشفو-12 {margin-top: 3rem;}
+.هشيم-12 {margin-inline-start: 3rem;}
+.هشبد-12 {margin-inline-start: 3rem;}
+.هشتح-12 {margin-bottom: 3rem;}
+.هشيس-12 {margin-inline-end: 3rem;}
+.هش-14 {margin: 3.5rem;}
+.هشس-14 {margin-left: 3.5rem;margin-right: 3.5rem;}
+.هشص-14 {margin-top: 3.5rem;margin-bottom: 3.5rem;}
+.هشفو-14 {margin-top: 3.5rem;}
+.هشيم-14 {margin-inline-start: 3.5rem;}
+.هشبد-14 {margin-inline-start: 3.5rem;}
+.هشتح-14 {margin-bottom: 3.5rem;}
+.هشيس-14 {margin-inline-end: 3.5rem;}
+.هشنه-14 {margin-inline-end: 3.5rem;}
+.هش-16 {margin: 4rem;}
+.هشس-16 {margin-left: 4rem;margin-right: 4rem;}
+.هشص-16 {margin-top: 4rem;margin-bottom: 4rem;}
+.هشفو-16 {margin-top: 4rem;}
+.هشيم-16 {margin-inline-start: 4rem;}
+.هشبد-16 {margin-inline-start: 4rem;}
+.هشتح-16 {margin-bottom: 4rem;}
+.هشيس-16 {margin-inline-end: 4rem;}
+.هشنه-16 {margin-inline-end: 4rem;}
+.هش-20 {margin: 5rem;}
+.هشس-20 {margin-left: 5rem;margin-right: 5rem;}
+.هشص-20 {margin-top: 5rem;margin-bottom: 5rem;}
+.هشفو-20 {margin-top: 5rem;}
+.هشيم-20 {margin-inline-start: 5rem;}
+.هشبد-20 {margin-inline-start: 5rem;}
+.هشتح-20 {margin-bottom: 5rem;}
+.هشيس-20 {margin-inline-end: 5rem;}
+.هشنه-20 {margin-inline-end: 5rem;}
+.هش-24 {margin: 6rem;}
+.هشس-24 {margin-left: 6rem;margin-right: 6rem;}
+.هشص-24 {margin-top: 6rem;margin-bottom: 6rem;}
+.هشفو-24 {margin-top: 6rem;}
+.هشيم-24 {margin-inline-start: 6rem;}
+.هشبد-24 {margin-inline-start: 6rem;}
+.هشتح-24 {margin-bottom: 6rem;}
+.هشيس-24 {margin-inline-end: 6rem;}
+.هشنه-24 {margin-inline-end: 6rem;}
+.هش-28 {margin: 7rem;}
+.هشس-28 {margin-left: 7rem;margin-right: 7rem;}
+.هشص-28 {margin-top: 7rem;margin-bottom: 7rem;}
+.هشفو-28 {margin-top: 7rem;}
+.هشيم-28 {margin-inline-start: 7rem;}
+.هشبد-28 {margin-inline-start: 7rem;}
+.هشتح-28 {margin-bottom: 7rem;}
+.هشيس-28 {margin-inline-end: 7rem;}
+.هشنه-28 {margin-inline-end: 7rem;}
+.هش-32 {margin: 8rem;}
+.هشس-32 {margin-left: 8rem;margin-right: 8rem;}
+.هشص-32 {margin-top: 8rem;margin-bottom: 8rem;}
+.هشفو-32 {margin-top: 8rem;}
+.هشيم-32 {margin-inline-start: 8rem;}
+.هشبد-32 {margin-inline-start: 8rem;}
+.هشتح-32 {margin-bottom: 8rem;}
+.هشيس-32 {margin-inline-end: 8rem;}
+.هشنه-32 {margin-inline-end: 8rem;}
+.هش-36 {margin: 9rem;}
+.هشس-36 {margin-left: 9rem;margin-right: 9rem;}
+.هشص-36 {margin-top: 9rem;margin-bottom: 9rem;}
+.هشفو-36 {margin-top: 9rem;}
+.هشيم-36 {margin-inline-start: 9rem;}
+.هشبد-36 {margin-inline-start: 9rem;}
+.هشتح-36 {margin-bottom: 9rem;}
+.هشيس-36 {margin-inline-end: 9rem;}
+.هشنه-36 {margin-inline-end: 9rem;}
+.هش-40 {margin: 10rem;}
+.هشس-40 {margin-left: 10rem;margin-right: 10rem;}
+.هشص-40 {margin-top: 10rem;margin-bottom: 10rem;}
+.هشفو-40 {margin-top: 10rem;}
+.هشيم-40 {margin-inline-start: 10rem;}
+.هشبد-40 {margin-inline-start: 10rem;}
+.هشتح-40 {margin-bottom: 10rem;}
+.هشيس-40 {margin-inline-end: 10rem;}
+.هشنه-40 {margin-inline-end: 10rem;}
+.هش-44 {margin: 11rem;}
+.هشس-44 {margin-left: 11rem;margin-right: 11rem;}
+.هشص-44 {margin-top: 11rem;margin-bottom: 11rem;}
+.هشفو-44 {margin-top: 11rem;}
+.هشيم-44 {margin-inline-start: 11rem;}
+.هشبد-44 {margin-inline-start: 11rem;}
+.هشتح-44 {margin-bottom: 11rem;}
+.هشيس-44 {margin-inline-end: 11rem;}
+.هشنه-44 {margin-inline-end: 11rem;}
+.هش-48 {margin: 12rem;}
+.هشس-48 {margin-left: 12rem;margin-right: 12rem;}
+.هشص-48 {margin-top: 12rem;margin-bottom: 12rem;}
+.هشفو-48 {margin-top: 12rem;}
+.هشيم-48 {margin-inline-start: 12rem;}
+.هشبد-48 {margin-inline-start: 12rem;}
+.هشتح-48 {margin-bottom: 12rem;}
+.هشيس-48 {margin-inline-end: 12rem;}
+.هشنه-48 {margin-inline-end: 12rem;}
+.هش-52 {margin: 13rem;}
+.هشس-52 {margin-left: 13rem;margin-right: 13rem;}
+.هشص-52 {margin-top: 13rem;margin-bottom: 13rem;}
+.هشفو-52 {margin-top: 13rem;}
+.هشيم-52 {margin-inline-start: 13rem;}
+.هشبد-52 {margin-inline-start: 13rem;}
+.هشتح-52 {margin-bottom: 13rem;}
+.هشيس-52 {margin-inline-end: 13rem;}
+.هشنه-52 {margin-inline-end: 13rem;}
+.هش-56 {margin: 14rem;}
+.هشس-56 {margin-left: 14rem;margin-right: 14rem;}
+.هشص-56 {margin-top: 14rem;margin-bottom: 14rem;}
+.هشفو-56 {margin-top: 14rem;}
+.هشيم-56 {margin-inline-start: 14rem;}
+.هشبد-56 {margin-inline-start: 14rem;}
+.هشتح-56 {margin-bottom: 14rem;}
+.هشيس-56 {margin-inline-end: 14rem;}
+.هشنه-56 {margin-inline-end: 14rem;}
+.هش-60 {margin: 15rem;}
+.هشس-60 {margin-left: 15rem;margin-right: 15rem;}
+.هشص-60 {margin-top: 15rem;margin-bottom: 15rem;}
+.هشفو-60 {margin-top: 15rem;}
+.هشيم-60 {margin-inline-start: 15rem;}
+.هشبد-60 {margin-inline-start: 15rem;}
+.هشتح-60 {margin-bottom: 15rem;}
+.هشيس-60 {margin-inline-end: 15rem;}
+.هشنه-60 {margin-inline-end: 15rem;}
+.هش-64 {margin: 16rem;}
+.هشس-64 {margin-left: 16rem;margin-right: 16rem;}
+.هشص-64 {margin-top: 16rem;margin-bottom: 16rem;}
+.هشفو-64 {margin-top: 16rem;}
+.هشيم-64 {margin-inline-start: 16rem;}
+.هشبد-64 {margin-inline-start: 16rem;}
+.هشتح-64 {margin-bottom: 16rem;}
+.هشيس-64 {margin-inline-end: 16rem;}
+.هشنه-64 {margin-inline-end: 16rem;}
+
+.فائض-تلقا {overflow: auto;}
+.فائض-مخفي {overflow: hidden;}
+.فائض-ضاهر {overflow: visible;}
+.فائض-تمرير {overflow: scroll;}
+.فائضس-تلقا {overflow-x: auto;}
+.فائضص-تلقا {overflow-y: auto;}
+.فائضس-مخفي {overflow-x: hidden;}
+.فائضص-مخفي {overflow-y: hidden;}
+.فائضس-ضاهر {overflow-x: visible;}
+.فائضص-ضاهر {overflow-y: visible;}
+.فائضس-تمرير {overflow-x: scroll;}
+.فائضص-تمرير {overflow-y: scroll;}
+.فائض-لمسي {-ms-overflow-style: none;scrollbar-width: none}
+.فائض-لمسي::-webkit-scrollbar {width: 0px;background: transparent;}
+
+.ط-0 { height: 0px; }
+.ط-0\.5 { height: 0.125rem; }
+.ط-1 { height: 0.25rem; }
+.ط-1\.5 { height: 0.375rem; }
+.ط-2 { height: 0.5rem; }
+.ط-2\.5 { height: 0.625rem; }
+.ط-3 { height: 0.75rem; }
+.ط-3\.5 { height: 0.875rem; }
+.ط-4 { height: 1rem; }
+.ط-5 { height: 1.25rem; }
+.ط-6 { height: 1.5rem; }
+.ط-7 { height: 1.75rem; }
+.ط-8 { height: 2rem; }
+.ط-9 { height: 2.25rem; }
+.ط-10 { height: 2.5rem; }
+.ط-11 {height: 2.75rem;}
+.ط-12 {height: 3rem;}
+.ط-14 {height: 3.5rem;}
+.ط-16 {height: 4rem;}
+.ط-20 {height: 5rem;}
+.ط-24 {height: 6rem;}
+.ط-28 {height: 7rem;}
+.ط-32 {height: 8rem;}
+.ط-36 {height: 9rem;}
+.ط-40 {height: 10rem;}
+.ط-44 {height: 11rem;}
+.ط-48 {height: 12rem;}
+.ط-52 {height: 13rem;}
+.ط-56 {height: 14rem;}
+.ط-60 {height: 15rem;}
+.ط-64 {height: 16rem;}
+.ط-72 {height: 18rem;}
+.ط-مئة {height: 100px;}
+.ط-مئتان {height: 200px;}
+.ط-تلاتمئة {height: 300px;}
+.ط-ئربعمئة {height: 400px;}
+.ط-خمسمئة {height: 500px;}
+.ط-ستمئة {height: 600px;}
+.ط-سبعمئة {height: 700px;}
+.ط-تمانمئة {height: 800px;}
+.ط-تسعمئة {height: 900px;}
+.ط-عشرة { height: 10%; }
+.ط-عشرون { height: 20%; }
+.ط-تلاتون { height: 30%; }
+.ط-ئربعون { height: 40%; }
+.ط-ستون { height: 60%; }
+.ط-سبعون { height: 70%; }
+.ط-تمانون { height: 80%; }
+.ط-تسعون { height: 90%; }
+.ط-نصف { height: 50%; }
+.ط-تلت { height: 33.333333%; }
+.ط-ربع { height: 25%; }
+.ط-ئلاربع { height: 75% }
+.ط-كامل { height: 100%; }
+.ط-شاشة { height: 100vh; }
+.ط-محتوا {height: fit-content;}
+
+.نصبداية {text-align: start;}
+.نصنهاية {text-align: end;}
+.نصيمين {text-align: right;}
+.نصيسار {text-align: left;}
+.نصوسط {text-align: center;}
+
+.مقوس-بلا {border-radius: 0px;}
+.مقوسبلا {border-radius: 0px;}
+.مقوس-صغ {border-radius: 0.125rem;}
+.مقوسصغ {border-radius: 0.125rem;}
+.مقوس {border-radius: 0.25rem;}
+.مقوس-مت {border-radius: 0.375rem;}
+.مقوسمت {border-radius: 0.375rem;}
+.مقوسكب {border-radius: 0.5rem;}
+.مقوس-كب {border-radius: 0.5rem;}
+.مقوس-كج {border-radius: 0.75rem;}
+.مقوسكج {border-radius: 0.75rem;}
+.مقوس-كجج {border-radius: 1rem;}
+.مقوسكجج {border-radius: 1rem;}
+.مقوسكج3 {border-radius: 1.5rem;}
+.مقوس-كج3 {border-radius: 1.5rem;}
+.مقوس-كامل {border-radius: 9999px;}
+.مقوسكامل {border-radius: 9999px;}
+.بمقوسبلا {border-start-start-radius: 0px; border-end-start-radius: 0px;}
+.بمقوسصغ {border-start-start-radius: 0.125rem; border-end-start-radius: 0.125rem;}
+.بمقوس {border-start-start-radius: 0.25rem; border-end-start-radius: 0.25rem;}
+.بمقوسمت {border-start-start-radius: 0.375rem; border-end-start-radius: 0.375rem;}
+.بمقوسكب {border-start-start-radius: 0.5rem; border-end-start-radius: 0.5rem;}
+.بمقوسكج {border-start-start-radius: 0.75rem; border-end-start-radius: 0.75rem;}
+.بمقوسكجج {border-start-start-radius: 1rem; border-end-start-radius: 1rem;}
+.بمقوسكج3 {border-start-start-radius: 1.5rem; border-end-start-radius: 1.5rem;}
+.بمقوسكامل {border-start-start-radius: 9999px; border-end-start-radius: 9999px;}
+.نمقوسبلا {border-start-end-radius: 0px; border-end-end-radius: 0px;}
+.نمقوسصغ {border-start-end-radius: 0.125rem; border-end-end-radius: 0.125rem;}
+.نمقوس {border-start-end-radius: 0.25rem; border-end-end-radius: 0.25rem;}
+.نمقوسمت {border-start-end-radius: 0.375rem; border-end-end-radius: 0.375rem;}
+.نمقوسكب {border-start-end-radius: 0.5rem; border-end-end-radius: 0.5rem;}
+.نمقوسكج {border-start-end-radius: 0.75rem; border-end-end-radius: 0.75rem;}
+.نمقوسكجج {border-start-end-radius: 1rem; border-end-end-radius: 1rem;}
+.نمقوسكج3 {border-start-end-radius: 1.5rem; border-end-end-radius: 1.5rem;}
+.نمقوسكامل {border-start-end-radius: 9999px; border-end-end-radius: 9999px;}
+.فمقوسبلا {border-top-left-radius: 0px; border-top-right-radius: 0px;}
+.فمقوسصغ {border-top-left-radius: 0.125rem; border-top-right-radius: 0.125rem;;}
+.فمقوس {border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem;}
+.فمقوسمت {border-top-left-radius: 0.375rem; border-top-right-radius: 0.375rem;}
+.فمقوسكب {border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem;}
+.فمقوسكج {border-top-left-radius: 0.75rem; border-top-right-radius: 0.75rem;}
+.فمقوسكجج {border-top-left-radius: 1rem; border-top-right-radius: 1rem;}
+.فمقوسكج3 {border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem;}
+.فمقوسكامل {border-top-left-radius: 9999px; border-top-right-radius: 9999px;}
+.تمقوسبلا {border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;}
+.تمقوسصغ {border-bottom-right-radius: 0.125rem; border-bottom-left-radius: 0.125rem;}
+.تمقوس {border-bottom-right-radius: 0.25rem; border-bottom-left-radius: 0.25rem;}
+.تمقوسمت {border-bottom-right-radius: 0.375rem; border-bottom-left-radius: 0.375rem;}
+.تمقوسكب {border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;}
+.تمقوسكج {border-bottom-right-radius: 0.75rem; border-bottom-left-radius: 0.75rem;}
+.تمقوسكجج {border-bottom-right-radius: 1rem; border-bottom-left-radius: 1rem;}
+.تمقوسكج3 {border-bottom-right-radius: 1.5rem; border-bottom-left-radius: 1.5rem;}
+.تمقوسكامل {border-bottom-right-radius: 9999px; border-bottom-left-radius: 9999px;}
+
+.خطخفجج {font-weight: 100;}
+.خطخفج {font-weight: 200;}
+.خطخفيف {font-weight: 300;}
+.خطعادي {font-weight: 400;}
+.خطمتوسط {font-weight: 500;}
+.خطنصفسم {font-weight: 600;}
+.خطسميك {font-weight: 700;}
+.خطسمج {font-weight: 800;}
+.خطسمجج {font-weight: 900;}
+
+.حججم0 {transform: scale(0);}
+.حججم50 {transform: scale(.5);}
+.حججم75 {transform: scale(.75);}
+.حججم90 {transform: scale(.9);}
+.حججم95 {transform: scale(.95);}
+.حججم100 {transform: scale(1);}
+.حججم105 {transform: scale(1.05);}
+.حججم110 {transform: scale(1.1);}
+.حججم125 {transform: scale(1.25);}
+.حججم150 {transform: scale(1.5);}
+.حججم200 {transform: scale(2);}
+
+.فوق-0 {top: 0px;}
+.يمين-0 {right: 0px;}
+.تحت-0 {bottom: 0px;}
+.يسار-0 {left: 0px;}
+.بداية-0 {inset-inline-start:0px}
+.نهاية-0 {inset-inline-end:0px}
+.فوق-0\.5 {top: 0.125rem;}
+.يمين-0\.5 {right: 0.125rem;}
+.تحت-0\.5 {bottom: 0.125rem;}
+.يسار-0\.5 {left: 0.125rem;}
+.بداية-0\.5 {inset-inline-start: 0.125rem;}
+.نهاية-0\.5 {inset-inline-end: 0.125rem;}
+.فوق-1 {top: 0.25rem;}
+.يمين-1 {right: 0.25rem;}
+.تحت-1 {bottom: 0.25rem;}
+.يسار-1 {left: 0.25rem;}
+.بداية-1 {inset-inline-start:0.25rem}
+.نهاية-1 {inset-inline-end:0.25rem}
+.فوق-2 {top: 0.5rem;}
+.يمين-2 {right: 0.5rem;}
+.تحت-2 {bottom: 0.5rem;}
+.يسار-2 {left: 0.5rem;}
+.بداية-2 {inset-inline-start:0.5rem}
+.نهاية-2 {inset-inline-end:0.5rem}
+.فوق-3 {top: 0.75rem;}
+.يمين-3 {right: 0.75rem;}
+.تحت-3 {bottom: 0.75rem;}
+.يسار-3 {left: 0.75rem;}
+.بداية-3 {inset-inline-start:0.75rem}
+.نهاية-3 {inset-inline-end:0.75rem}
+.فوق-4 {top: 1rem;}
+.يمين-4 {right: 1rem;}
+.تحت-4 {bottom: 1rem;}
+.يسار-4 {left: 1rem;}
+.بداية-4 {inset-inline-start:1rem}
+.نهاية-4 {inset-inline-end:1rem}
+.فوق-5 {top: 1.25rem;}
+.يمين-5 {right: 1.25rem;}
+.تحت-5 {bottom: 1.25rem;}
+.يسار-5 {left: 1.25rem;}
+.بداية-5 {inset-inline-start:1.25rem}
+.نهاية-5 {inset-inline-end:1.25rem}
+.فوق-6 {top: 1.5rem;}
+.يمين-6 {right: 1.5rem;}
+.تحت-6 {bottom: 1.5rem;}
+.يسار-6 {left: 1.5rem;}
+.بداية-6 {inset-inline-start:1.5rem}
+.نهاية-6 {inset-inline-end:1.5rem}
+.فوق-7 {top: 1.75rem;}
+.يمين-7 {right: 1.75rem;}
+.تحت-7 {bottom: 1.75rem;}
+.يسار-7 {left: 1.75rem;}
+.بداية-7 {inset-inline-start:1.75rem}
+.نهاية-7 {inset-inline-end:1.75rem}
+.فوق-8 {top: 2rem;}
+.يمين-8 {right: 2rem;}
+.تحت-8 {bottom: 2rem;}
+.يسار-8 {left: 2rem;}
+.بداية-8 {inset-inline-start:2rem}
+.نهاية-8 {inset-inline-end:2rem}
+.فوق-9 {top: 2.25rem;}
+.يمين-9 {right: 2.25rem;}
+.تحت-9 {bottom: 2.25rem;}
+.يسار-9 {left: 2.25rem;}
+.بداية-9 {inset-inline-start:2.25rem}
+.نهاية-9 {inset-inline-end:2.25rem}
+.فوق-10 {top: 2.5rem;}
+.يمين-10 {right: 2.5rem;}
+.تحت-10 {bottom: 2.5rem;}
+.يسار-10 {left: 2.5rem;}
+.بداية-10 {inset-inline-start:2.5rem}
+.نهاية-10 {inset-inline-end:2.5rem}
+.فوق-11 {top: 2.75rem;}
+.يمين-11 {right: 2.75rem;}
+.تحت-11 {bottom: 2.75rem;}
+.يسار-11 {left: 2.75rem;}
+.بداية-11 {inset-inline-start:2.75rem}
+.نهاية-11 {inset-inline-end:2.75rem}
+.فوق-12 {top: 3rem;}
+.يمين-12 {right: 3rem;}
+.تحت-12 {bottom: 3rem;}
+.يسار-12 {left: 3rem;}
+.بداية-12 {inset-inline-start:3rem}
+.نهاية-12 {inset-inline-end:3rem}
+.فوق-14 {top: 3.5rem;}
+.يمين-14 {right: 3.5rem;}
+.تحت-14 {bottom: 3.5rem;}
+.يسار-14 {left:3.5rem}
+.بداية-14 {inset-inline-start:3.5rem}
+.نهاية-14 {inset-inline-end:3.5rem}
+.فوق-16 {top: 4rem;}
+.يمين-16 {right: 4rem;}
+.تحت-16 {bottom: 4rem;}
+.يسار-16 {left: 4rem;}
+.بداية-16 {inset-inline-start:4rem}
+.نهاية-16 {inset-inline-end:4rem}
+
+.خلف-رمادي-50 {background-color: rgb(249 250 251);}
+.خلف-رمادي-100 {background-color: rgb(243 244 246);}
+.خلف-رمادي-200 {background-color: rgb(229 231 235);}
+.خلف-رمادي-300 {background-color: rgb(209 213 219);}
+.خلف-رمادي-400 {background-color: rgb(156 163 175);}
+.خلف-رمادي-500 {background-color: rgb(107 114 128);}
+.خلف-رمادي-600 {background-color: rgb(75 85 99);}
+.خلف-رمادي-700 {background-color: rgb(55 65 81);}
+.خلف-رمادي-800 {background-color: rgb(31 41 55);}
+.خلف-رمادي-900 {background-color: rgb(17 24 39);}
+.خلف-رمادي-950 {background-color: rgb(3 7 18);}
+.نص-رمادي-50 {color: rgb(249 250 251);}
+.نص-رمادي-100 {color: rgb(243 244 246);}
+.نص-رمادي-200 {color: rgb(229 231 235);}
+.نص-رمادي-300 {color: rgb(209 213 219);}
+.نص-رمادي-400 {color: rgb(156 163 175);}
+.نص-رمادي-500 {color: rgb(107 114 128);}
+.نص-رمادي-600 {color: rgb(75 85 99);}
+.نص-رمادي-700 {color: rgb(55 65 81);}
+.نص-رمادي-800 {color: rgb(31 41 55);}
+.نص-رمادي-900 {color: rgb(17 24 39);}
+.نص-رمادي-950 {color: rgb(3 7 18);}
+.رمادي-50 {color: rgb(249 250 251);}
+.رمادي-100 {color: rgb(243 244 246);}
+.رمادي-200 {color: rgb(229 231 235);}
+.رمادي-300 {color: rgb(209 213 219);}
+.رمادي-400 {color: rgb(156 163 175);}
+.رمادي-500 {color: rgb(107 114 128);}
+.رمادي-600 {color: rgb(75 85 99);}
+.رمادي-700 {color: rgb(55 65 81);}
+.رمادي-800 {color: rgb(31 41 55);}
+.رمادي-900 {color: rgb(17 24 39);}
+.رمادي-950 {color: rgb(3 7 18);}
+.ئطار-رمادي-50 {border-color: rgb(249 250 251);}
+.ئطار-رمادي-100 {border-color: rgb(243 244 246);}
+.ئطار-رمادي-200 {border-color: rgb(229 231 235);}
+.ئطار-رمادي-300 {border-color: rgb(209 213 219);}
+.ئطار-رمادي-400 {border-color: rgb(156 163 175);}
+.ئطار-رمادي-500 {border-color: rgb(107 114 128);}
+.ئطار-رمادي-600 {border-color: rgb(75 85 99);}
+.ئطار-رمادي-700 {border-color: rgb(55 65 81);}
+.ئطار-رمادي-800 {border-color: rgb(31 41 55);}
+.ئطار-رمادي-900 {border-color: rgb(17 24 39);}
+.ئطار-رمادي-950 {border-color: rgb(3 7 18);}
+
+.خلف-ئخضر-50 {background-color: rgb(240 253 244);}
+.خلف-ئخضر-100 {background-color: rgb(220 252 231);}
+.خلف-ئخضر-200 {background-color: rgb(187 247 208);}
+.خلف-ئخضر-300 {background-color: rgb(134 239 172);}
+.خلف-ئخضر-400 {background-color: rgb(74 222 128);}
+.خلف-ئخضر-500 {background-color: rgb(34 197 94);}
+.خلف-ئخضر-600 {background-color: rgb(22 163 74);}
+.خلف-ئخضر-700 {background-color: rgb(21 128 61);}
+.خلف-ئخضر-800 {background-color: rgb(22 101 52);}
+.خلف-ئخضر-900 {background-color: rgb(20 83 45);}
+.خلف-ئخضر-950 {background-color: rgb(5 46 22);}
+.نص-ئخضر-50 {color: rgb(240 253 244);}
+.نص-ئخضر-100 {color: rgb(220 252 231);}
+.نص-ئخضر-200 {color: rgb(187 247 208);}
+.نص-ئخضر-300 {color: rgb(134 239 172);}
+.نص-ئخضر-400 {color: rgb(74 222 128);}
+.نص-ئخضر-500 {color: rgb(34 197 94);}
+.نص-ئخضر-600 {color: rgb(22 163 74);}
+.نص-ئخضر-700 {color: rgb(21 128 61);}
+.نص-ئخضر-800 {color: rgb(22 101 52);}
+.نص-ئخضر-900 {color: rgb(20 83 45);}
+.نص-ئخضر-950 {color: rgb(5 46 22);}
+.ئخضر-50 {color: rgb(240 253 244);}
+.ئخضر-100 {color: rgb(220 252 231);}
+.ئخضر-200 {color: rgb(187 247 208);}
+.ئخضر-300 {color: rgb(134 239 172);}
+.ئخضر-400 {color: rgb(74 222 128);}
+.ئخضر-500 {color: rgb(34 197 94);}
+.ئخضر-600 {color: rgb(22 163 74);}
+.ئخضر-700 {color: rgb(21 128 61);}
+.ئخضر-800 {color: rgb(22 101 52);}
+.ئخضر-900 {color: rgb(20 83 45);}
+.ئخضر-950 {color: rgb(5 46 22);}
+
+.موضع-ساكن {position: static;}
+.موضع-تابت  {position: fixed;}
+.موضع-مطلق {position: absolute;}
+.موضع-نسبي {position: relative;}
+.موضع-لصيق {position: sticky;}
+.موضعساكن {position: static;}
+.موضعتابت {position: fixed;}
+.موضعمطلق {position: absolute;}
+.موضعنسبي {position: relative;}
+.موضعلصيق {position: sticky;}
+
+.ع-0 { width: 0px; }
+.ع-0\.5 { width: 0.125rem; }
+.ع-1 { width: 0.25rem; }
+.ع-1\.5 { width: 0.375rem; }
+.ع-2 { width: 0.5rem; }
+.ع-2\.5 { width: 0.625rem; }
+.ع-3 { width: 0.75rem; }
+.ع-3\.5 { width: 0.875rem; }
+.ع-4 { width: 1rem; }
+.ع-5 { width: 1.25rem; }
+.ع-6 { width: 1.5rem; }
+.ع-7 { width: 1.75rem; }
+.ع-8 { width: 2rem; }
+.ع-9 { width: 2.25rem; }
+.ع-10 { width: 2.5rem; }
+.ع-11 {width: 2.75rem;}
+.ع-12 {width: 3rem;}
+.ع-14 {width: 3.5rem;}
+.ع-16 {width: 4rem;}
+.ع-20 {width: 5rem;}
+.ع-24 {width: 6rem;}
+.ع-28 {width: 7rem;}
+.ع-32 {width: 8rem;}
+.ع-36 {width: 9rem;}
+.ع-40 {width: 10rem;}
+.ع-44 {width: 11rem;}
+.ع-48 {width: 12rem;}
+.ع-52 {width: 13rem;}
+.ع-56 {width: 14rem;}
+.ع-60 {width: 15rem;}
+.ع-64 {width: 16rem;}
+.ع-72 {width: 18rem;}
+.ع-80 {width: 20rem;}
+.ع-96 {width: 24rem;}
+.ع-100 {width: 25rem;}
+.ع-116 {width: 29rem;}
+.ع-132 {width: 33rem;}
+.ع-148 {width: 37rem;}
+.ع-164 {width: 41rem;}
+.ع-مئة {width: 100px;}
+.ع-مئتان {width: 200px;}
+.ع-تلاتمئة {width: 300px;}
+.ع-ئربعمئة {width: 400px;}
+.ع-خمسمئة {width: 500px;}
+.ع-ستمئة {width: 600px;}
+.ع-سبعمئة {width: 700px;}
+.ع-تمانمئة {width: 800px;}
+.ع-تسعمئة {width: 900px;}
+.ع-عشرة { width: 10%; }
+.ع-عشرون { width: 20%; }
+.ع-تلاتون { width: 30%; }
+.ع-ئربعون { width: 40%; }
+.ع-خمسون { width: 50%; }
+.ع-ستون { width: 60%; }
+.ع-سبعون { width: 70%; }
+.ع-تمانون { width: 80%; }
+.ع-تسعون { width: 90%; }
+.ع-نصف { width: 50%; }
+.ع-تلت { width: 33.333333%; }
+.ع-ربع { width: 25%; }
+.ع-ئلاربع { width: 75% }
+.ع-كامل { width: 100%; }
+.ع-شاشة { width: 100vw; }
+.ع-محتوا {width: fit-content;}
+
+.خلف-حالي {background-color: currentColor;}
+.خلف-شفاف {background-color: transparent;}
+.خلف-ئسود {background-color: rgb(0 0 0);}
+.خلف-ئبيض {background-color: rgb(255 255 255);}
+.نص-حالي {color: currentColor;}
+.شفاف {color: transparent;}
+.نص-ئسود {color: rgb(0 0 0);}
+.ئسود {color: rgb(0 0 0);}
+.نص-ئبيض {color: rgb(255 255 255);}
+.ئبيض {color: rgb(255 255 255);}
+.ئطار-ئسود {border-color: rgb(0 0 0);}
+.ئطار-ئبيض {border-color: rgb(255 255 255);}
+
+.محورض0 {z-index: 0}
+.محورض10 {z-index: 10}
+.محورض20 {z-index: 20}
+.محورض30 {z-index: 30}
+.محورض40 {z-index: 40}
+.محورض50 {z-index: 50}
+.محورض100 {z-index: 100}
+.محورض1000 {z-index: 1000}
+.محورض2000 {z-index: 2000}
+.محورض3000 {z-index: 3000 }
+.محورض4000 {z-index: 4000}
+.محورض5000 {z-index: 5000}
+.محورضتلق {z-index: auto}
+.محورض-0 {z-index: 0}
+.محورض-10 {z-index: 10}
+.محورض-20 {z-index: 20}
+.محورض-30 {z-index: 30}
+.محورض-40 {z-index: 40}
+.محورض-50 {z-index: 50}
+.محورض-100 {z-index: 100}
+.محورض-1000 {z-index: 1000}
+.محورض-2000 {z-index: 2000}
+.محورض-3000 {z-index: 3000 }
+.محورض-4000 {z-index: 4000}
+.محورض-5000 {z-index: 5000}
+.محورض-تلق {z-index: auto}
+
+.مرئي {visibility: visible;}
+.مخفي {visibility: hidden;}
+.مضمحل {visibility: collapse;}
+
+.ئطار0 {border-width: 0px}
+.ئطاربلا {border-width: 0px}
+.ئطار {border-width: 1px;border-style:solid;}
+.ئطار1 {border-width: 1px;border-style:solid;}
+.ئطار2 {border-width: 2px;border-style:solid}
+.ئطار4 {border-width: 4px;border-style:solid}
+.ئطار8 {border-width: 8px;border-style:solid}
+.ئطار-0 {border-width: 0px}
+.ئطار-1 {border-width: 1px;border-style:solid;}
+.ئطار-2 {border-width: 2px;border-style:solid}
+.ئطار-4 {border-width: 4px;border-style:solid}
+.ئطار-8 {border-width: 8px;border-style:solid}
+.ئطارب0 {border-inline-start-width: 0px}
+.ئطارب1 {border-inline-start-width: 1px;border-inline-start-style:solid}
+.ئطارب2 {border-inline-start-width: 2px;border-inline-start-style:solid}
+.ئطارب4 {border-inline-start-width: 4px;border-inline-start-style:solid}
+.ئطارب8 {border-inline-start-width: 8px;border-inline-start-style:solid}
+.ئطارب-0 {border-inline-start-width: 0px}
+.ئطارب-1 {border-inline-start-width: 1px;border-inline-start-style:solid}
+.ئطارب-2 {border-inline-start-width: 2px;border-inline-start-style:solid}
+.ئطارب-4 {border-inline-start-width: 4px;border-inline-start-style:solid}
+.ئطارب-8 {border-inline-start-width: 8px;border-inline-start-style:solid}
+.ئطارن0 {border-inline-end-width: 0px}
+.ئطارن1 {border-inline-end-width: 1px;border-inline-end-style:solid}
+.ئطارن2 {border-inline-end-width: 2px;border-inline-end-style:solid}
+.ئطارن4 {border-inline-end-width: 4px;border-inline-end-style:solid}
+.ئطارن8 {border-inline-end-width: 8px;border-inline-end-style:solid}
+.ئطارن-0 {border-inline-end-width: 0px}
+.ئطارن-1 {border-inline-end-width: 1px;border-inline-end-style:solid}
+.ئطارن-2 {border-inline-end-width: 2px;border-inline-end-style:solid}
+.ئطارن-4 {border-inline-end-width: 4px;border-inline-end-style:solid}
+.ئطارن-8 {border-inline-end-width: 8px;border-inline-end-style:solid}
+.ئطارف0 {border-top-width: 0px;}
+.ئطارف1 {border-top-width: 1px;border-top-style:solid}
+.ئطارف2 {border-top-width: 2px;border-top-style:solid}
+.ئطارف4 {border-top-width: 4px;border-top-style:solid}
+.ئطارف8 {border-top-width: 8px;border-top-style:solid}
+.ئطارف-0 {border-top-width: 0px;}
+.ئطارف-1 {border-top-width: 1px;border-top-style:solid}
+.ئطارف-2 {border-top-width: 2px;border-top-style:solid}
+.ئطارف-4 {border-top-width: 4px;border-top-style:solid}
+.ئطارف-8 {border-top-width: 8px;border-top-style:solid}
+.ئطارت0 {border-bottom-width: 0px;}
+.ئطارت1 {border-bottom-width: 1px;border-bottom-style:solid}
+.ئطارت2 {border-bottom-width: 2px;border-bottom-style:solid}
+.ئطارت4 {border-bottom-width: 4px;border-bottom-style:solid}
+.ئطارت8 {border-bottom-width: 8px;border-bottom-style:solid}
+.ئطارت-0 {border-bottom-width: 0px;}
+.ئطارت-1 {border-bottom-width: 1px;border-bottom-style:solid}
+.ئطارت-2 {border-bottom-width: 2px;border-bottom-style:solid}
+.ئطارت-4 {border-bottom-width: 4px;border-bottom-style:solid}
+.ئطارت-8 {border-bottom-width: 8px;border-bottom-style:solid}
+
+.خلف-ئحمر-50 {background-color: rgb(254 242 242);} /* .ئحمر-50 */
+.خلف-ئحمر-100 {background-color: rgb(254 226 226);} /* .ئحمر-100 */
+.خلف-ئحمر-200 {background-color: rgb(254 202 202);} /* .ئحمر-200 */
+.خلف-ئحمر-300 {background-color: rgb(252 165 165);} /* .ئحمر-300 */
+.خلف-ئحمر-400 {background-color: rgb(248 113 113);} /* .ئحمر-400 */
+.خلف-ئحمر-500 {background-color: rgb(239 68 68);} /* .ئحمر-500 */
+.خلف-ئحمر-600 {background-color: rgb(220 38 38);} /* .ئحمر-600 */
+.خلف-ئحمر-700 {background-color: rgb(185 28 28);} /* .ئحمر-700 */
+.خلف-ئحمر-800 {background-color: rgb(153 27 27);} /* .ئحمر-800 */
+.خلف-ئحمر-900 {background-color: rgb(127 29 29);} /* .ئحمر-900 */
+.خلف-ئحمر-950 {background-color: rgb(69 10 10);} /* .ئحمر-950 */
+.نص-ئحمر-50 {color: rgb(254 242 242);} 
+.نص-ئحمر-100 {color: rgb(254 226 226);}
+.نص-ئحمر-200 {color: rgb(254 202 202);}
+.نص-ئحمر-300 {color: rgb(252 165 165);}
+.نص-ئحمر-400 {color: rgb(248 113 113);}
+.نص-ئحمر-500 {color: rgb(239 68 68);}
+.نص-ئحمر-600 {color: rgb(220 38 38);}
+.نص-ئحمر-700 {color: rgb(185 28 28);}
+.نص-ئحمر-800 {color: rgb(153 27 27);}
+.نص-ئحمر-900 {color: rgb(127 29 29);}
+.نص-ئحمر-950 {color: rgb(69 10 10);}
+.ئحمر-50 {color: rgb(254 242 242);}
+.ئحمر-100 {color: rgb(254 226 226);}
+.ئحمر-200 {color: rgb(254 202 202);}
+.ئحمر-300 {color: rgb(252 165 165);}
+.ئحمر-400 {color: rgb(248 113 113);}
+.ئحمر-500 {color: rgb(239 68 68);}
+.ئحمر-600 {color: rgb(220 38 38);}
+.ئحمر-700 {color: rgb(185 28 28);}
+.ئحمر-800 {color: rgb(153 27 27);}
+.ئحمر-900 {color: rgb(127 29 29);}
+.ئحمر-950 {color: rgb(69 10 10);}
+.ئطار-ئحمر-50 {border-color: rgb(254 242 242);} /* .ئحمر-50 */
+.ئطار-ئحمر-100 {border-color: rgb(254 226 226);} /* .ئحمر-100 */
+.ئطار-ئحمر-200 {border-color: rgb(254 202 202);} /* .ئحمر-200 */
+.ئطار-ئحمر-300 {border-color: rgb(252 165 165);} /* .ئحمر-300 */
+.ئطار-ئحمر-400 {border-color: rgb(248 113 113);} /* .ئحمر-400 */
+.ئطار-ئحمر-500 {border-color: rgb(239 68 68);} /* .ئحمر-500 */
+.ئطار-ئحمر-600 {border-color: rgb(220 38 38);} /* .ئحمر-600 */
+.ئطار-ئحمر-700 {border-color: rgb(185 28 28);} /* .ئحمر-700 */
+.ئطار-ئحمر-800 {border-color: rgb(153 27 27);} /* .ئحمر-800 */
+.ئطار-ئحمر-900 {border-color: rgb(127 29 29);} /* .ئحمر-900 */
+.ئطار-ئحمر-950 {border-color: rgb(69 10 10);} /* .ئحمر-950 */
+
+.خلف-برتق-50 {background-color: rgb(255 247 237);}
+.خلف-برتق-100 {background-color: rgb(255 237 213);}
+.خلف-برتق-200 {background-color: rgb(254 215 170);}
+.خلف-برتق-300 {background-color: rgb(253 186 116);}
+.خلف-برتق-400 {background-color: rgb(251 146 60);}
+.خلف-برتق-500 {background-color: rgb(249 115 22);}
+.خلف-برتق-600 {background-color: rgb(234 88 12);}
+.خلف-برتق-700 {background-color: rgb(194 65 12);}
+.خلف-برتق-800 {background-color: rgb(154 52 18);}
+.خلف-برتق-900 {background-color: rgb(124 45 18);}
+.خلف-برتق-950 {background-color: rgb(67 20 7);}
+.نص-برتق-50 {color: rgb(255 247 237);}
+.نص-برتق-100 {color: rgb(255 237 213);}
+.نص-برتق-200 {color: rgb(254 215 170);}
+.نص-برتق-300 {color: rgb(253 186 116);}
+.نص-برتق-400 {color: rgb(251 146 60);}
+.نص-برتق-500 {color: rgb(249 115 22);}
+.نص-برتق-600 {color: rgb(234 88 12);}
+.نص-برتق-700 {color: rgb(194 65 12);}
+.نص-برتق-800 {color: rgb(154 52 18);}
+.نص-برتق-900 {color: rgb(124 45 18);}
+.نص-برتق-950 {color: rgb(67 20 7);}
+.برتق-50 {color: rgb(255 247 237);}
+.برتق-100 {color: rgb(255 237 213);}
+.برتق-200 {color: rgb(254 215 170);}
+.برتق-300 {color: rgb(253 186 116);}
+.برتق-400 {color: rgb(251 146 60);}
+.برتق-500 {color: rgb(249 115 22);}
+.برتق-600 {color: rgb(234 88 12);}
+.برتق-700 {color: rgb(194 65 12);}
+.برتق-800 {color: rgb(154 52 18);}
+.برتق-900 {color: rgb(124 45 18);}
+.برتق-950 {color: rgb(67 20 7);}
+
+.شفافية0 { opacity: 0 }
+.شفافية5 { opacity: 0.05 }
+.شفافية10 { opacity: 0.1 }
+.شفافية20 { opacity: 0.2 }
+.شفافية25 { opacity: 0.25 }
+.شفافية30 { opacity: 0.3 }
+.شفافية40 { opacity: 0.4 }
+.شفافية50 { opacity: 0.5 }
+.شفافية60 { opacity: 0.6 }
+.شفافية70 { opacity: 0.7 }
+.شفافية75 { opacity: 0.75 }
+.شفافية80 { opacity: 0.8 }
+.شفافية90 { opacity: 0.9 }
+.شفافية95 { opacity: 0.95 }
+.شفافية100 { opacity: 1 }
+.شفافية-0 { opacity: 0 }
+.شفافية-5 { opacity: 0.05 }
+.شفافية-10 { opacity: 0.1 }
+.شفافية-20 { opacity: 0.2 }
+.شفافية-25 { opacity: 0.25 }
+.شفافية-30 { opacity: 0.3 }
+.شفافية-40 { opacity: 0.4 }
+.شفافية-50 { opacity: 0.5 }
+.شفافية-60 { opacity: 0.6 }
+.شفافية-70 { opacity: 0.7 }
+.شفافية-75 { opacity: 0.75 }
+.شفافية-80 { opacity: 0.8 }
+.شفافية-90 { opacity: 0.9 }
+.شفافية-95 { opacity: 0.95 }
+.شفافية-100 { opacity: 1 }
+
+.منحيسار { direction: ltr }
+.منحيمين { direction: rtl }
+
+.فلكس-عرضي {flex-direction: row;}
+.فلكس-طولي {flex-direction: column;}
+.عرضي {flex-direction: row;}
+.طولي {flex-direction: column;}
+.فلكس-عرضي-معكوس {flex-direction: row-reverse;}
+.فلكس-طولي-معكوس {flex-direction: column-reverse;}
+.مخطط-عرضي {display: flex; flex-direction: row;}
+.مخطط-طولي {display: flex; flex-direction: column;}
+.مخطط-عرضي-معكوس {display: flex; flex-direction: row-reverse;}
+.مخطط-طولي-معكوس {display: flex; flex-direction: column-reverse;}
+
+.بلوك {display: block;}
+.بلوكمدمج {display: inline-block;}
+.مدمج {display: inline;}
+.فلكس {display: flex;}
+.مخطط {display: flex;}
+.مخطط-مدمج {display: inline-flex;}
+.فلكسمدمج {display: inline-flex;}
+.بلاعرض {display: none;}
+.فلكس-مدمج {display: inline-flex;}
+.بلا-عرض {display: none;}
+.بلوك-مدمج {display: inline-block;}
+
+.مئشر-فتراضي {cursor: default}
+.مئشر-مفترض {cursor: default}
+.مئشر-سبابة {cursor: pointer}
+.سبابة {cursor: pointer}
+.مئشر-تحميل {cursor: wait}
+.مئشر-نص {cursor: text}
+.مئشر-تحريك {cursor: move}
+.مئشر-مساعدة {cursor: help}
+.مئشر-محضور {cursor: not-allowed}
+.مئشر-تحجيم-عرضي {cursor: col-resize}
+.مئشر-تحجيم-طولي {cursor: row-resize}
+
+.ئقصع-0 {max-width: 0rem;}
+.ئقصع-صغج {max-width: 20rem;}
+.ئقصع-صغ {max-width: 24rem;}
+.ئقصع-مت {max-width: 28rem;}
+.ئقصع-كب {max-width: 32rem;}
+.ئقصع-كج {max-width: 36rem;}
+.ئقصع-كجج {max-width: 42rem;}
+.ئقصع-كج3 {max-width: 48rem;}
+.ئقصع-كج4 {max-width: 56rem;}
+.ئقصع-كج5 {max-width: 64rem;}
+.ئقصع-كج6 {max-width: 72rem;}
+.ئقصع-كج7 {max-width: 80rem;}
+.ئقصع-كامل {max-width: 100%;}
+.ئقصع-شاشة-صغ {max-width: 640px;}
+.ئقصع-شاشة-مت {max-width: 768px;}
+.ئقصع-شاشة-كب {max-width: 1024px;}
+.ئقصع-شاشة-كج {max-width: 1280px;}
+.ئقصع-شاشة-كجج {max-width: 1536px;}
+
+.خلف-سماوي-50 {background-color: rgb(240 249 255);}
+.خلف-سماوي-100 {background-color: rgb(224 242 254);}
+.خلف-سماوي-200 {background-color: rgb(186 230 253);}
+.خلف-سماوي-300 {background-color: rgb(125 211 252);}
+.خلف-سماوي-400 {background-color: rgb(56 189 248);}
+.خلف-سماوي-500 {background-color: rgb(14 165 233);}
+.خلف-سماوي-600 {background-color: rgb(2 132 199);}
+.خلف-سماوي-700 {background-color: rgb(3 105 161);}
+.خلف-سماوي-800 {background-color: rgb(7 89 133);}
+.خلف-سماوي-900 {background-color: rgb(12 74 110);}
+.خلف-سماوي-950 {background-color: rgb(8 47 73);}
+.نص-سماوي-50 {color: rgb(240 249 255);}
+.نص-سماوي-100 {color: rgb(224 242 254);}
+.نص-سماوي-200 {color: rgb(186 230 253);}
+.نص-سماوي-300 {color: rgb(125 211 252);}
+.نص-سماوي-400 {color: rgb(56 189 248);}
+.نص-سماوي-500 {color: rgb(14 165 233);}
+.نص-سماوي-600 {color: rgb(2 132 199);}
+.نص-سماوي-700 {color: rgb(3 105 161);}
+.نص-سماوي-800 {color: rgb(7 89 133);}
+.نص-سماوي-900 {color: rgb(12 74 110);}
+.نص-سماوي-950 {color: rgb(8 47 73);}
+.سماوي-50 {color: rgb(240 249 255);}
+.سماوي-100 {color: rgb(224 242 254);}
+.سماوي-200 {color: rgb(186 230 253);}
+.سماوي-300 {color: rgb(125 211 252);}
+.سماوي-400 {color: rgb(56 189 248);}
+.سماوي-500 {color: rgb(14 165 233);}
+.سماوي-600 {color: rgb(2 132 199);}
+.سماوي-700 {color: rgb(3 105 161);}
+.سماوي-800 {color: rgb(7 89 133);}
+.سماوي-900 {color: rgb(12 74 110);}
+.سماوي-950 {color: rgb(8 47 73);}
+
+.ئرصف-عادي {justify-content: normal}
+.ئرصف-بداية {justify-content: flex-start}
+.ئرصف-نهاية {justify-content: flex-end}
+.ئرصف-وسط {justify-content: center}
+.ئرصف-بين {justify-content: space-between}
+.ئرصف-حول {justify-content: space-around}
+.ئرصف-تساوي {justify-content: space-evenly}
+.ئرصف-تمدد {justify-content: stretch}
+
+.عنصرات-بداية {align-items: flex-start}
+.عنصرات-نهاية {align-items: flex-end}
+.عنصرات-وسط {align-items: center}
+.عنصرات-توازي {align-items: baseline}
+.عنصرات-تمدد {align-items: stretch}
+.ئصفف-بداية {align-items: flex-start}
+.ئصفف-نهاية {align-items: flex-end}
+.ئصفف-وسط {align-items: center}
+.ئصفف-توازي {align-items: baseline}
+.ئصفف-تمدد {align-items: stretch}
+
+.بلاتحديد {user-select: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;}
