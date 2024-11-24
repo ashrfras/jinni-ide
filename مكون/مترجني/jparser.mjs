@@ -2291,6 +2291,9 @@ parse: async function parse (input) {
     //this.reductionCount = this.shiftCount = 0;
 
     var lexer = Object.create(this.lexer);
+	ErrorManager.lexer = lexer;
+	ErrorManager.input = input;
+	
     var sharedState = { yy: {} };
     // copy state
     for (var k in this.yy) {
