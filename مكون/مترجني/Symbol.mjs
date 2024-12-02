@@ -2,7 +2,7 @@ import ErrorManager from './ErrorManager.mjs';
 
 export class Symbol {
 	// Automatically import these types in every source
-	static AUTOIMPORTS = ['عدد', 'منطق', 'مصفوفة', 'نصية', 'نوعبنية', 'نوعمركب', 'نوعتعداد', 'تاريخ'];
+	static AUTOIMPORTS = ['عدد', 'منطق', 'مصفوفة', 'نصية', 'نوعبنية', 'نوعمركب', 'نوعتعداد', 'تاريخ', 'فشل'];
 	
 	// system types known by the compiler
 	static SYSTEMTYPES = {
@@ -301,6 +301,20 @@ export class Symbol {
 		});
 		
 		return can;
+	}
+	
+	doExtend (s) {
+		if (this.getTypeName() == s) {
+			return true;
+		}
+		var superSymb = this.typeSymbol.superSymbol;
+		while (superSymb) {
+			if (superSymb.getTypeName() == s) {
+				return true;
+			}
+			superSymb = superSymb.superSymbol || superSymb.typeSymbol.superSymbol;
+		}
+		return false;
 	}
 	
 	isStructType () {
