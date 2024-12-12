@@ -662,6 +662,20 @@
 .نصكج8 {font-size: 6rem;line-height: 1;}
 .نصكج9 {font-size: 8rem;line-height: 1;}
 
+.ئرتف-سطر-3 {line-height:0.75rem;}
+.ئرتف-سطر-4 {line-height:1rem;}
+.ئرتف-سطر-5 {line-height:1.25rem;}
+.ئرتف-سطر-6 {line-height:1.5rem;}
+.ئرتف-سطر-7 {line-height:1.75rem;}
+.ئرتف-سطر-8 {line-height:2rem;}
+.ئرتف-سطر-9 {line-height:2.25rem;}
+.ئرتف-سطر-10 {line-height:2.5rem;}
+.ئرتف-سطر-بلا {line-height:1;}
+.ئرتف-سطر-ضيق {line-height:1.25;}
+.ئرتف-سطر-عادي {line-height:1.5;}
+.ئرتف-سطر-مريح {line-height:1.625;}
+.ئرتف-سطر-واسع {line-height:2;}
+
 .خلف-شرشير-50 {background-color: rgb(240 253 250);} /* .شرشير-50 */
 .خلف-شرشير-100 {background-color: rgb(204 251 241);} /* .شرشير-100 */
 .خلف-شرشير-200 {background-color: rgb(153 246 228);} /* .شرشير-200 */
