@@ -60,18 +60,18 @@
 							<ميطا charset="utf-8"></ميطا>
 							<ميطا name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=0"></ميطا>
 							<عنوان>تحميل</عنوان>
-							<سمة>.ط-كامل{height:100%;}.مخطط-طولي{display:flex;flex-direction:column;}.ئصفف-وسط{align-items:center}.ئرصف-وسط{justify-content:center}.ع-كامل{width:100%;}.خلف-رمادي-700{background-color:rgb\(55 65 81\)}.ئبيض{color:rgb\(255 255 255\)}.حش-0{padding:0px;}.هش-0{margin:0px;}</سمة>
+							<سمة>.ط-كامل{height:100%;}.مخطط-طولي{display:flex;flex-direction:column;}.ئصفف-وسط{align-items:center}.ئرصف-وسط{justify-content:center}.ع-كامل{width:100%;}.خلف-رمادي-700{background-color:rgb\(55 65 81\)}.ئبيض{color:rgb\(255 255 255\)}.حش-0{padding:0px;}.هش-0{margin:0px;}.نصصج{font-size:0.75rem;line-height:1rem;}</سمة>
 							<سمة>						
 							@font-face { 
-								font-family: 'كاسكاديامونو'; 
-								src: url\('/ملفا/كسكاديامونو.ttf'\); format\('ttf'\);
+								font-family: 'كوكبمونو'; 
+								src: url\('/ملفا/KawkabMonoTechRegular.ttf'\); format\('ttf'\);
 							}
-							body, body * {font-family: 'كاسكاديامونو';}
+							body, body * {font-family: 'كوكبمونو';}
 							</سمة>
 						</رئس>
 						<جسم صنف="ط-كامل تصفير فائض-مخفي خلف-رمادي-700 حش-0 هش-0">
 							<قسم صنف="مخطط-طولي ئصفف-وسط ئرصف-وسط ط-كامل ع-كامل فائض-مخفي">
-								<حيز صنف="ئبيض">تحميل</حيز>
+								<حيز صنف="ئبيض نصصج">تحميل</حيز>
 							</قسم>
 						</جسم>
 					</html>
