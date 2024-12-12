@@ -141,7 +141,7 @@
 		white-space: nowrap;
 		line-height: 24px;
 		font-size: 100%;
-		font-size: 14px;
+		font-size: 12px;
     }
     .تحرير:focus {
 		border: 0;
@@ -150,7 +150,7 @@
 	.تضليل {
 		z-index: 0;
 		font-size: 100%;
-		font-size: 14px;
+		font-size: 12px;
     }
 	.تظليل:focus {
 		border: 0;
@@ -182,10 +182,11 @@
 	}
 	.جني-مفتاحية {
 		color: #dfc47d;
-		
+		font-weight: bold;
 	}
 	.جني-معامل {
 		color: #EC4D37;
+		font-weight: bold;
 	}
 	.جني-تنصيص {
 		color: #cc9393;
@@ -210,6 +211,7 @@
 	}
 	.جني-رمز {
 		color: #9f9d6d;
+		font-weight: bold;
 	}"؛
 تم
 ئعلن مسترمز.هييئمصدر () ك نصية:
