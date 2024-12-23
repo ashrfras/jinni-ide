@@ -15,7 +15,7 @@ For more information about Jinni Programming Language, including its features an
 
 To get started quickly with the IDE, I recommend watching this short video tutorial. It will guide you through the basics and help you set up your environment in no time!
 
-[![Watch the Video](YOUR_VIDEO_THUMBNAIL_URL)](https://www.youtube.com/@jinnidev)
+[![Watch the Video](https://img.youtube.com/vi/BQzUNQDYPd4/3.jpg)](https://youtube.com/shorts/BQzUNQDYPd4)
 
 ## Contact
 
