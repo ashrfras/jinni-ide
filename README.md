@@ -13,13 +13,19 @@ For more information about Jinni Programming Language, including its features an
 
 ## Quick Start
 
-To get started quickly with the IDE, I recommend watching this short video tutorial. It will guide you through the basics and help you set up your environment in no time!
+To get started quickly with Jinni, we recommend starting with these short video tutorials:
 
-[![Watch the Video](https://img.youtube.com/vi/BQzUNQDYPd4/3.jpg)](https://youtube.com/shorts/BQzUNQDYPd4)
+- [Set up your environment](https://www.youtube.com/shorts/BQzUNQDYPd4)
+- [Hello JinX](https://www.youtube.com/shorts/pZylVaqCatA)
+- [Introduction to components](https://www.youtube.com/shorts/qwOY_jzM9I0)
 
-## Contact
+Feel free to reach out if you have any questions or need further assistance!
 
-If you need help or have questions, feel free to reach out to me via [Email](mailto:ashraf.ras@raqmain.net). I’ll do my best to respond promptly!
+## Getting Help
+
+The most effective way to engage with this project or seek assistance is through GitHub Discussions. You can access it from the menu above to ask any questions you may have.
+
+Alternatively, you are welcome to contact me via [email](mailto:ashraf.ras@raqmain.net), and I will make every effort to respond promptly.
 
 ## License
 
