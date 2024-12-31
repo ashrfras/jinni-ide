@@ -14,6 +14,13 @@ export class ImportManager {
 	static projectPath;
 	static outputPath;
 	
+	static init () {
+		ImportManager.importedScopes = [];
+		ImportManager.openScopes = [];
+		ImportManager.toReparse = [];
+		ImportManager.dependencies = [];
+	}
+	
 	static setContext (ctx) {
 		ImportManager.projectPath = ctx.projectPath;
 		ImportManager.outputPath = ctx.outPath;
@@ -42,6 +49,7 @@ export class ImportManager {
 	// imp is import path
 	// fromFilePath is path of file from which import occuring
 	static async addImport (imp, fromFilePath, findName = null) {
+		ErrorManager.setFunc('ئوردين');
 		// validate findName
 		if (findName && findName.includes('.')) {
 			ErrorManager.error(findName + " ليس ئسم ئيراد صالح");
@@ -148,31 +156,33 @@ export class ImportManager {
 				
 				return scope.scope;
 			} else {
-				// import is not found locally, search and download from library
-				// and then continue just like local like: مكون.بتشدبي
-				// TODO: downloadFromLibrary();
-				myFileImp = await ImportManager.getImportInfo(`مكون.${imp}`);
-				if (myFileImp.exists) {
-					// we have successfully downloaded component from library
-					var scope = {
-						name: imp,
-						scope: await ImportManager.processImport(myFileImp.path, fromFilePath)
+				if (!imp.includes('مكون.')) {
+					// import is not found locally, search and download from library
+					// and then continue just like local like: مكون.بتشدبي
+					// TODO: downloadFromLibrary();
+					myFileImp = await ImportManager.getImportInfo(`مكون.${imp}`);
+					if (myFileImp.exists) {
+						// we have successfully downloaded component from library
+						var scope = {
+							name: imp,
+							scope: await ImportManager.processImport(myFileImp.path, fromFilePath)
+						}
+						//scope.scope.importName = myFileImp.importName;
+						if (! ImportManager.toReparse.includes(fromFilePath)) {
+							ImportManager.importedScopes.push(scope);
+						}
+						
+						if (!isAutoImport) {
+							ImportManager.openScopes.pop();
+						}
+						return scope.scope;
 					}
-					//scope.scope.importName = myFileImp.importName;
-					if (! ImportManager.toReparse.includes(fromFilePath)) {
-						ImportManager.importedScopes.push(scope);
-					}
-					
-					if (!isAutoImport) {
-						ImportManager.openScopes.pop();
-					}
-					return scope.scope;
-				} else {
-					if (!isAutoImport) {
-						ImportManager.openScopes.pop();
-					}
-					ErrorManager.error("تعدر ئيجاد الوحدة '" +  imp + "'");
 				}
+				if (!isAutoImport) {
+					ImportManager.openScopes.pop();
+				}
+				ErrorManager.error("تعدر ئيجاد الوحدة '" +  imp + "'");
+				throw new Error("تعدر ئيجاد الوحدة '" +  imp + "'");
 			}
 		}
 	}

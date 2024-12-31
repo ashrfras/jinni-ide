@@ -2581,7 +2581,6 @@ _handle_error:
 				return result;
 			} catch (e) {
 				// exception while parsing, lets show errors
-				//console.log(e);
 				ErrorManager.printAll();
 			}
 		}

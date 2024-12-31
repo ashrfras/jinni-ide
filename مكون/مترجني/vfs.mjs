@@ -283,7 +283,6 @@ export class vfs {
 	static ئعدئنشائ = vfs.remakeDir;
 
 	
-	
 	static async fileExist (filePath) {
 		if (isNode()) {
 			try {
@@ -299,13 +298,17 @@ export class vfs {
 			myDb = myDb['بتش'];
 			var nodbPath = vfs.getNoDbPath(filePath);
 			try {
-				await myDb.get(nodbPath);
-				return true;
+				var result = await myDb.get(nodbPath);
+				if (result) {
+					return true;
+				} else {
+					return false;
+				}
 			} catch (err) {
 				return false;
 			}
 		}
-	}
+	} 
 	static ملفموجود = vfs.fileExist;
 	
 	
