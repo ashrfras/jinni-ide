@@ -120,6 +120,7 @@
   "ئحجية": "iconoir-puzzle"،
   "سحابة-مزامنة": "iconoir-cloud-sync"،
   "سهم-تصفح-تحت": "iconoir-nav-arrow-down"،
+  "سهم-تصفح-فوق": "iconoir-nav-arrow-up"،
   "مجلد": "iconoir-folder"،
   "مجلد-ناقص": "iconoir-folder-minus"،
   "مجلد-زائد": "iconoir-folder-plus"،
@@ -133,8 +134,27 @@
   "ئنترنت": "iconoir-internet"،
   "علامة-ئكس": "iconoir-xmark"،
   "قاجانب-تمديد": "iconoir-sidebar-expand"،
-  "قاجانب-ئخفائ": "iconoir-sidebar-collapse"
+  "قاجانب-ئخفائ": "iconoir-sidebar-collapse"،
+  "جواهر": "iconoir-sparks"،
+  "جواهر-ملئ": "iconoir-sparks-solid"،
+  "ئنتقال-ئسفل": "iconoir-transition-down"،
+  "ئنتقال-ئعلا": "iconoir-transition-up"،
+  "ئنتقال-يسار": "iconoir-transition-left"،
+  "مقص": "iconoir-scissor"،
+  "ترصيف-ئسفل": "iconoir-comp-align-bottom"،
+  "ترصيف-يمين": "iconoir-comp-align-right"،
+  "ترصيف-ئعلا": "iconoir-comp-align-top"،
+  "سهم-سريع-ئعلا-مربع": "iconoir-fast-arrow-up-square"،
+  "سهم-سريع-ئسفل-مربع": "iconoir-fast-arrow-down-square"،
+  "سهم-سريع-يسار-مربع": "iconoir-fast-arrow-left-square"،
+  "مربع-زائد-متقطع": "iconoir-plus-square-dashed"،
+  "مربع-سلاش": "iconoir-slash-square"
 }؛
+
+ئعلن ئيقو.خدئسم (نصية ئسمج):
+	هدا.ئسمصنف = هدا.ئسمصنف.عووض(قاموس[هدا.ئسم]، قاموس[ئسمج])؛
+	هدا.ئسم = ئسمج؛
+تم
 
 ئعلن ئيقو.صيير ():
 	ورقسيس[] ورقسمات = المستند.ورقسمات؛
