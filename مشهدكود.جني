@@ -377,7 +377,7 @@
 			.رقمتضليل {
 				color: #e8eaed;
 				line-height:22px;
-				font-size:12px;
+				font-size:10px;
 				float: right;
 				text-align: left;
 				color: gray;
@@ -391,13 +391,14 @@
 				tab-size : 3;
 				line-height:22px;
 				height:22px;
-				font-size:12px;
+				font-size:10px;
 				letter-spacing:1.4px;
 				scrollbar-height: none;
 				margin: 0;
 				padding: 0;
 				padding-right: 24px;
-				width: 100%;
+				width: fit-content;
+				min-width: 100%;
 			}
 			.جني-مفتاحية {
 				color: #dfc47d;

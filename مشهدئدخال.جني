@@ -49,8 +49,8 @@
 	ئرجع (
 		<قسم صنف="مخطط-طولي خلف-حيادي-700 حش-2 مقوس">
 			<قسم صنف="ط-14 ئقصط-14 فائضص-تلقا موضعنسبي">
-				<مربعنص rows="4" ستنب="رماز" صنف="نصصج موضعمطلق ئبيض ع-كامل خلف-حيادي-700 ئطاربلا حش-0 هش-0 فائض-مخفي محورض-10" سمة="z-index:1;color:transparent;background:transparent;caret-color:white;resize:none;outline:none;line-height:22px;letter-spacing:1.4px;word-break:break-all;">%{هدا.حالة.رماز}</مربعنص>
-				<منسق صنف="نصصج موضعمطلق حش-0 هش-0 ئبيض نص-يلتف فائض-مخفي محورض-0" سمة="z-index:0;text-wrap:wrap;line-height:22px;letter-spacing:1.4px;word-break:break-all;">%{هدا.هييئمصدر\(\)}</منسق>
+				<مربعنص rows="4" ستنب="رماز" صنف="نصصج موضعمطلق ئبيض ع-كامل خلف-حيادي-700 ئطاربلا حش-0 هش-0 فائض-مخفي محورض-10" سمة="z-index:1;color:transparent;background:transparent;caret-color:white;resize:none;outline:none;line-height:22px;letter-spacing:1.4px;word-break:break-all;font-size:10px">%{هدا.حالة.رماز}</مربعنص>
+				<منسق صنف="نصصج موضعمطلق حش-0 هش-0 ئبيض نص-يلتف فائض-مخفي محورض-0" سمة="z-index:0;text-wrap:wrap;line-height:22px;letter-spacing:1.4px;word-break:break-all;font-size:10px">%{هدا.هييئمصدر\(\)}</منسق>
 			</قسم>
 			<قسم صنف="مخطط-عرضي ئرصف-بين">
 				<قسم صنف="مخطط-عرضي فجوة-1">
