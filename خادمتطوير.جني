@@ -88,6 +88,15 @@
 							<عنوان>%{ئسملف}</عنوان>
 							<ميطا name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=0"></ميطا>
 							<link rel="stylesheet" href="/ئختبر/style.css"></link>
+							<script>
+								console.log = function \(...args\) {
+									window.parent.postMessage\(args.join\(' '\), '*'\);
+								};
+								window.onerror = function\(message, source, lineno, colno, error\) {
+									const errorMsg = "خطئ: " + message + " في " + source;
+									window.parent.postMessage\(errorMsg, '*'\);
+								};
+							</script>
 							<script type="module">
 								import "/ئختبر/%{ئسملف}.mjs"
 							</script>
