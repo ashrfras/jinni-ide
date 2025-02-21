@@ -90,7 +90,11 @@
 							<link rel="stylesheet" href="/ئختبر/style.css"></link>
 							<script>
 								console.log = function \(...args\) {
-									window.parent.postMessage\(args.join\(' '\), '*'\);
+									if \(args.toString\) {
+										window.parent.postMessage\(args.toString\(\), '*'\);
+									} else {
+										window.parent.postMessage\(args.join\(' '\), '*'\);
+									}
 								};
 								window.onerror = function\(message, source, lineno, colno, error\) {
 									const errorMsg = "خطئ: " + message + " في " + source;
