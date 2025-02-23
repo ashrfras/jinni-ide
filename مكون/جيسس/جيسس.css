@@ -648,6 +648,7 @@
 .ضلبلا {box-shadow: 0 0 ;}
 .ضلملتف { box-shadow: 0px 0px 8px;}
 
+.نصصجج {font-size: 0.625rem;line-height: 0.75rem;}
 .نصصج {font-size: 0.75rem;line-height: 1rem;}
 .نصصغ {font-size: 0.875rem;line-height: 1.25rem;}
 .نصعادي {font-size: 1rem;line-height: 1.5rem;}
@@ -709,17 +710,17 @@
 .شرشير-800 {color: rgb(17 94 89);}
 .شرشير-900 {color: rgb(19 78 74);}
 .شرشير-950 {color: rgb(4 47 46);}
-.ئطار-شرشير-50 {background-color: rgb(240 253 250);} /* .شرشير-50 */
-.ئطار-شرشير-100 {background-color: rgb(204 251 241);} /* .شرشير-100 */
-.ئطار-شرشير-200 {background-color: rgb(153 246 228);} /* .شرشير-200 */
-.ئطار-شرشير-300 {background-color: rgb(94 234 212);} /* .شرشير-300 */
-.ئطار-شرشير-400 {background-color: rgb(45 212 191);} /* .شرشير-400 */
-.ئطار-شرشير-500 {background-color: rgb(20 184 166);} /* .شرشير-500 */
-.ئطار-شرشير-600 {background-color: rgb(13 148 136);} /* .شرشير-600 */
-.ئطار-شرشير-700 {background-color: rgb(15 118 110);} /* .شرشير-700 */
-.ئطار-شرشير-800 {background-color: rgb(17 94 89);} /* .شرشير-800 */
-.ئطار-شرشير-900 {background-color: rgb(19 78 74);} /* .شرشير-900 */
-.ئطار-شرشير-950 {background-color: rgb(4 47 46);} /* .شرشير-950 */
+.ئطار-شرشير-50 {border-color: rgb(240 253 250);} /* .شرشير-50 */
+.ئطار-شرشير-100 {border-color: rgb(204 251 241);} /* .شرشير-100 */
+.ئطار-شرشير-200 {border-color: rgb(153 246 228);} /* .شرشير-200 */
+.ئطار-شرشير-300 {border-color: rgb(94 234 212);} /* .شرشير-300 */
+.ئطار-شرشير-400 {border-color: rgb(45 212 191);} /* .شرشير-400 */
+.ئطار-شرشير-500 {border-color: rgb(20 184 166);} /* .شرشير-500 */
+.ئطار-شرشير-600 {border-color: rgb(13 148 136);} /* .شرشير-600 */
+.ئطار-شرشير-700 {border-color: rgb(15 118 110);} /* .شرشير-700 */
+.ئطار-شرشير-800 {border-color: rgb(17 94 89);} /* .شرشير-800 */
+.ئطار-شرشير-900 {border-color: rgb(19 78 74);} /* .شرشير-900 */
+.ئطار-شرشير-950 {border-color: rgb(4 47 46);} /* .شرشير-950 */
 
 .هش-0 {margin: 0px;}
 .هشس-0 {margin-left: 0px;margin-right: 0px;}
