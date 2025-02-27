@@ -61,6 +61,7 @@
 							<ميطا charset="utf-8"></ميطا>
 							<ميطا name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=0"></ميطا>
 							<عنوان>تحميل</عنوان>
+							<script src="/debug.js"></script>
 							<سمة>.ط-كامل{height:100%;}.مخطط-طولي{display:flex;flex-direction:column;}.ئصفف-وسط{align-items:center}.ئرصف-وسط{justify-content:center}.ع-كامل{width:100%;}.خلف-رمادي-700{background-color:rgb\(55 65 81\)}.ئبيض{color:rgb\(255 255 255\)}.حش-0{padding:0px;}.هش-0{margin:0px;}.نصصج{font-size:0.75rem;line-height:1rem;}</سمة>
 							<سمة>						
 							@font-face { 
@@ -88,19 +89,7 @@
 							<عنوان>%{ئسملف}</عنوان>
 							<ميطا name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=0"></ميطا>
 							<link rel="stylesheet" href="/ئختبر/style.css"></link>
-							<script>
-								console.log = function \(...args\) {
-									if \(args.toString\) {
-										window.parent.postMessage\(args.toString\(\), '*'\);
-									} else {
-										window.parent.postMessage\(args.join\(' '\), '*'\);
-									}
-								};
-								window.onerror = function\(message, source, lineno, colno, error\) {
-									const errorMsg = "خطئ: " + message + " في " + source;
-									window.parent.postMessage\(errorMsg, '*'\);
-								};
-							</script>
+							<script src="/debug.js"></script>
 							<script type="module">
 								import "/ئختبر/%{ئسملف}.mjs"
 							</script>
