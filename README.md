@@ -11,19 +11,13 @@ For more information about Jinni Programming Language, including its features an
 - **Cross-Device Compatibility**: Access and edit your code from any device, ensuring a smooth workflow whether you’re on a desktop or mobile.
 - **Easy Sharing**: Share your code cards with others effortlessly, fostering collaboration and community engagement.
 
-## Quick Start
-
-To get started quickly with Jinni, we recommend starting with these short video tutorials:
-
-- [Set up your environment](https://www.youtube.com/shorts/BQzUNQDYPd4)
-- [Hello JinX](https://www.youtube.com/shorts/pZylVaqCatA)
-- [Introduction to components](https://www.youtube.com/shorts/qwOY_jzM9I0)
-
 Feel free to reach out if you have any questions or need further assistance!
 
 ## Getting Help
 
 The most effective way to engage with this project or seek assistance is through GitHub Discussions. You can access it from the menu above to ask any questions you may have.
+
+The wiki section also includes comprehensive documentation of the project, which you may find helpful before reaching out.
 
 Alternatively, you are welcome to contact me via [email](mailto:ashraf.ras@raqmain.net), and I will make every effort to respond promptly.
 
